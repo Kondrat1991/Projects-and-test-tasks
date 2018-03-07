@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+  .wrapper {
+        padding: 20px;
+
+    }
+
+.header {
+    height: 100px;
+    margin-bottom: 5px;
+    background-color: darkblue;
+}
+
+.navigation {
+    height: 60px;
+    margin-bottom: 5px;
+    background-color: yellow;
+}
+
+.content {
+    display: inline-block;
+    height: 160px;
+    width:70%;
+    background-color: darkblue;
+}
+
+.box {
+    display: inline-block;
+    margin-right: 0;
+    height: 160px;
+    width: calc(30% - 4px);
+    background-color: red;
+}
+
+.footer {
+    height: 40px;
+    margin-top: 5px;
+    background-color: green;
+}
