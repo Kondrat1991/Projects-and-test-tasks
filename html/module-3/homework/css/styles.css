@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*this is a block for header*/
+
+/*.for-header {*/
+/*padding: 0;*/
+/*}*/
+
+.for-ul {
+    text-align: center;
+}
+
+.for-li {
+    display: inline-block;
+    font-size: large;
+    padding:50px;
+    /*line-height: 10px;*/
+}
+
+.for-links {
+    text-decoration: none;
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+
+.for-links:hover {
+    color: blue;
+}
+
+
+/*here is all about main*/
+.for-main {
+    padding: 50px 150px;
+    text-align: center;
+}
+
+.sections  {
+    display: inline-block;
+    padding: 60px;
+    text-align: left;
+    /*margin: 0 60px;*/
+}
+
+.not-display {
+    display: none;
+}
+/*I don't know is it right or not*/
+.under-the-image {
+    max-width: 420px;
+}
+/*this is styles for the text below the images*/
+
+.for-p {
+    padding:10px 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+}
+
+.for-h2 {
+    margin-bottom: 25px;
+    font-family: 'Playfair Display', serif;
+    font-size:large;
+    font-weight: bold;
+}
+
+.for-topics {
+    font-family: 'Playfair Display', serif;
+}
+
+/*Size from the psd-example looking not so well*/
+.photos {
+    /*width:420px;*/
+    /*height: 280px;*/
+}
+
+
+
+.for-button {
+    display:block;
+    margin: auto;
+    width:160px;
+    height: 60px;
+}
