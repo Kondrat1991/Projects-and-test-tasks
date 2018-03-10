@@ -4,7 +4,11 @@
     padding: 0;
 }
 
-
+.wrapper {
+    width: 1200px;
+    height: 2080px;
+    margin: auto;
+}
 
 /*this is a block for header*/
 
@@ -12,21 +16,36 @@
 /*padding: 0;*/
 /*}*/
 
+
+/*for a text that need uppercase*/
+
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*for navigation*/
+
 .for-ul {
     text-align: center;
 }
 
 .for-li {
     display: inline-block;
-    font-size: large;
-    padding:50px;
-    /*line-height: 10px;*/
+
 }
 
 .for-links {
+    display: block;
+    padding:50px;
     text-decoration: none;
-    color: black;
     font-family: 'Playfair Display', serif;
+    color:  #626262;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
 }
 
 .for-links:hover {
@@ -36,54 +55,71 @@
 
 /*here is all about main*/
 .for-main {
-    padding: 50px 150px;
     text-align: center;
+    margin:50px 0 ;
 }
 
 .sections  {
     display: inline-block;
-    padding: 60px;
+    max-width: 420px;
     text-align: left;
-    /*margin: 0 60px;*/
+    margin: 70px 60px;
+}
+
+.sections:nth-last-child(2) {
+    margin: 60px;
 }
 
 .not-display {
     display: none;
 }
-/*I don't know is it right or not*/
-.under-the-image {
-    max-width: 420px;
-}
-/*this is styles for the text below the images*/
+
 
 .for-p {
-    padding:10px 0;
-    font-family: 'Playfair Display', serif;
-    font-weight: lighter;
+    margin:30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    color:  #b4ad9e;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
 }
 
 .for-h2 {
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     font-family: 'Playfair Display', serif;
-    font-size:large;
-    font-weight: bold;
+    color:  #626262;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
 }
 
 .for-topics {
     font-family: 'Playfair Display', serif;
+    color:  #626262;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 }
 
-/*Size from the psd-example looking not so well*/
-.photos {
+
+/*.photos {*/
     /*width:420px;*/
     /*height: 280px;*/
-}
+/*}*/
 
 
 
 .for-button {
     display:block;
-    margin: auto;
-    width:160px;
+    margin: 0 auto 70px;
+    /*padding: 22px 34px;*/
+    width:164px;
     height: 60px;
+    font-family: 'Playfair Display', serif;
+    color:  #626262;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+
 }

@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+
+
+/*style for header*/
+.wrapper {
+    background-color: #f7fdfe;
+
+
+}
+
+/*for header*/
+.container {
+    max-width: 940px;
+    margin: auto;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+
+.logo {
+    text-transform:uppercase;
+    color:#82868f;
+    font-size:30px;
+    text-decoration: none;
+    margin-right: 510px;
+ }
+
+
+.ul {
+    list-style:none;
+}
+
+.logo,.nav,.nav-item
+{
+    display: inline-block;
+}
+
+.nav-link {
+    color: #82868f;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform:uppercase;
+    display: block;
+    padding: 15px 18px;
+}
+
+.nav-item:hover> .nav-link {
+    background-color: #0ebfdd;
+    color:#f7fdfe;
+    border-radius:25px;
+}
+
+/*info style*/
+
+.wrapper-info {
+    background-image: url("../img/Mountains.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    /*background-size: ;*/
+}
+
+.info {
+    padding: 410px 0 80px ;
+}
+
+
+.title {
+    text-align: center;
+    color: #f7fdfe;
+    font-weight:700;
+    font-size:44px;
+    margin-bottom: 40px;
+}
+
+
+.text {
+    color: #f7fdfe;
+    text-align: center;
+    font-size: 20px;
+
+
+}
+
+/*next section*/
+
+.about {
+    padding: 70px 0 75px;
+    /*color: #0ebfdd;*/
+}
+
+.title-about {
+    color: #0ebfdd;
+}
+
+.text-about {
+    color: #000000;
+}
+
+/*team section*/
+
+.wrapper-team {
+    background-color: #0ebfdd;
+}
+
+.team {
+    padding: 60px 0 65px;
+}
+
+.team-list {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.team-item {
+    display: inline-block;
+    margin-right: 70px;
+}
+
+.team-item:last-child {
+    margin-right: 0;
+}
+
+.team-picture {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    margin-bottom: 15px;
+
+}
+
+
+.team-title, .team-text {
+    color: #f7fdfe;
+
+}
+.team-text {
+    font-style: italic;
+}
+.btn {
+    display: block;
+    margin: auto;
+    background-color: transparent;
+    border-radius:25px;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    color:#f7fdfe;
+    font-weight:700;
+    border-color:#f9fbfb;
+
+}
+
+.btn:hover {
+    background-color:#f7fdfe ;
+    color:#0ebfdd;
+}
+
+
+.wrapper-map {
+    background-image: url("../img/map.jpg");
+    height: 600px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+
+}
+
+/*footer style*/
+
+
+.wrapper-footer {
+    background-color:#45494d;
+}
+
+.footer-top {
+    padding: 15px 0 20px;
+    border-bottom: 1px solid rgba(138, 141, 145, 0.3);
+}
+
+.footer-item {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.footer-link {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #d8dee4;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer-item:last-child {
+    margin-right: 0;
+}
+
+.footer-bottom {
+   text-align: right;
+    padding: 15px 0;
+}
+
+.license  {
+    display: inline-block;
+    text-align: right;
+
+}
+
+.license-item {
+    display: inline-block;
+    padding:0 15px;
+    border-right:1px solid #73767a;
+
+}
+
+.licence-link {
+    color: #73767a;
+    text-decoration: none;
+    font-size:12px;
+
+}
+
+.licence-link, .copyright {
+    display: inline-block;
+    color: ;
+
+}
+
+.copyright {
+    display: inline-block;
+    padding: 0 0 0 15px;
+}
+
+
+
