@@ -7,6 +7,7 @@
 .wrapper {
     width: 900px;
     margin: auto;
+    padding: 50px  0;
 }
 
 
@@ -16,10 +17,8 @@
     text-transform: uppercase;
 }
 
-/*for navigation*/
-
 .for-header {
-    padding-top: 50px;
+    margin: auto;
 }
 
 .for-ul {
@@ -28,12 +27,18 @@
 
 .for-li {
     display: inline-block;
-
+    margin-right: 50px;
 }
+
+.for-li:last-child {
+    margin-right:0;
+}
+
+
+
 
 .for-links {
     display: block;
-    margin-right: 50px;
     text-decoration: none;
     font-family: 'Playfair Display', serif;
     color:  #626262;
@@ -52,25 +57,26 @@
 /*here is all about main*/
 .for-main {
     text-align: center;
-    /*margin:50px 0 0;*/
-    padding: 50px 0;
+    margin:50px 0 0;
+
 }
 
 .sections  {
     display: inline-block;
     max-width: 420px;
     text-align: left;
-    margin-right: 54px;
-    margin-bottom: 50px;
+    margin: 50px 54px 50px 0;
 }
 
-.sections:nth-last-child(2n+2) {
-    margin-right: 0;
+.sections:nth-child(even) {
+    margin-right:0;
+
 }
 
-.sections:nth-last-child(-n+2) {
-    margin-bottom: 0;
+.sections:nth-last-child(-n+3) {
+    margin-bottom:0;
 }
+
 
 .not-display {
     display: none;
@@ -105,17 +111,17 @@
 }
 
 
-/*.photos {*/
-    /*width:420px;*/
-    /*height: 280px;*/
-/*}*/
+.photos {
+    width:420px;
+    height: 280px;
+}
 
 
 
 .for-button {
-    display:block;
-    margin: 50px auto;
-    /*padding: 22px 34px;*/
+    display:inline-block;
+    text-align: center;
+    margin: 50px 0 0;
     width:164px;
     height: 60px;
     font-family: 'Playfair Display', serif;

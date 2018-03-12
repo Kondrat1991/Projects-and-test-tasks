@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+
+.wrapper {
+    background-color:  #ffffff;
+}
+
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.header {
+    padding: 40px 0;
+}
+
+.logo {
+    text-transform:uppercase;
+    text-decoration: none;
+    margin-right: 570px;
+    font-family: 'Roboto', sans-serif;
+    color:  #555252;
+    font-size: 30px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 32px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.logo:first-letter {
+    font-family: 'Roboto', sans-serif;
+    color:  #1abc9c;
+    font-size: 30px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    line-height: 32px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+
+
