@@ -5,19 +5,11 @@
 }
 
 .wrapper {
-    width: 1200px;
-    height: 2080px;
+    width: 900px;
     margin: auto;
 }
 
-/*this is a block for header*/
 
-/*.for-header {*/
-/*padding: 0;*/
-/*}*/
-
-
-/*for a text that need uppercase*/
 
 
 .uppercase {
@@ -25,6 +17,10 @@
 }
 
 /*for navigation*/
+
+.for-header {
+    padding-top: 50px;
+}
 
 .for-ul {
     text-align: center;
@@ -37,7 +33,7 @@
 
 .for-links {
     display: block;
-    padding:50px;
+    margin-right: 50px;
     text-decoration: none;
     font-family: 'Playfair Display', serif;
     color:  #626262;
@@ -56,18 +52,24 @@
 /*here is all about main*/
 .for-main {
     text-align: center;
-    margin:50px 0 ;
+    /*margin:50px 0 0;*/
+    padding: 50px 0;
 }
 
 .sections  {
     display: inline-block;
     max-width: 420px;
     text-align: left;
-    margin: 70px 60px;
+    margin-right: 54px;
+    margin-bottom: 50px;
 }
 
-.sections:nth-last-child(2) {
-    margin: 60px;
+.sections:nth-last-child(2n+2) {
+    margin-right: 0;
+}
+
+.sections:nth-last-child(-n+2) {
+    margin-bottom: 0;
 }
 
 .not-display {
@@ -112,7 +114,7 @@
 
 .for-button {
     display:block;
-    margin: 0 auto 70px;
+    margin: 50px auto;
     /*padding: 22px 34px;*/
     width:164px;
     height: 60px;
