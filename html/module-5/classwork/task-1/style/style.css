@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*color: #626262;*/
+    /*font-family: 'Roboto', sans-serif;*/
+}
+
+
+.wrapper {
+    background: blue;
+}
+
+.container {
+    display: block;
+    width: 1000px;
+    height:1000px;
+    margin: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)), url("../img/image-01.jpg") center ;
+
+}
+
+
+
+
