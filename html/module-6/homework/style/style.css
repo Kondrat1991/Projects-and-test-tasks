@@ -25,7 +25,7 @@
 }
 /*for header*/
 .header {
-    padding:40px 0 110px;
+    padding-top:40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,7 +71,7 @@
 .service-info {
 
 
-    margin:90px 0 0;
+    margin:120px 0 0;
     text-align: center;
 }
 
