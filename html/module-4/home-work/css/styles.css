@@ -110,7 +110,12 @@
 }
 
 .item-list {
-    margin: 90px 0 105px;
+    margin-bottom:105px;
+}
+
+
+.gallery {
+    margin-top: 80px;
 }
 
 .gallery-item {
