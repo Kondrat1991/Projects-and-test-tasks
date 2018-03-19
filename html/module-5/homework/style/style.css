@@ -14,7 +14,17 @@
 .container {
     width: 1110px;
     margin: auto;
-    padding: 40px 0 0 0;
+    /*padding: 40px 0 0 0;*/
+}
+
+.container-header {
+    padding:40px 0 0 0;
+}
+
+.container-content {
+    width: 1110px;
+    margin: auto;
+    /*padding: 40px 0 0 0;*/
 }
 
 
@@ -26,9 +36,9 @@
 
 
 
-/*.header {*/
-    /*padding: 35px 0 30px;*/
-/*}*/
+.header {
+    margin: 35px 0 30px;
+}
 
 
 .logo {
@@ -131,7 +141,7 @@
 /*this for main*/
 
 .main {
-    padding: 100px 0;
+    /*margin:100px 0 0 ;*/
 
 }
 
@@ -140,6 +150,7 @@
 
 .wrapper-content {
     background-color:#e9f0fd;
+    padding: 100px 0 100px;
 }
 
 
