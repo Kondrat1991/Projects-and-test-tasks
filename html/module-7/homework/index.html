@@ -59,21 +59,46 @@
             <p class="contact-text">Lorem ipsum dolor sit amet, consectetur.</p>
         </div>
         <div class="container">
-            <form action="/action_page.php">
-
-                <input type="text" id="fname" name="firstname" placeholder="YOUR NAME*..">
+            <div class="login-page">
 
 
-                <input type="text" id="lname" name="lastname" placeholder="YOUR E-MAIL..">
+                <div class="form">
+                    <form class="login-form" action="#" method="POST">
 
-                <input type="text" id="lname" name="lastname" placeholder="SUBJECT..">
-
-                <input type="text" id="lname" name="lastname" placeholder="YOUR MESSAGE..">
+                        <div class="form-div">
 
 
-                <input type="submit" value="Submit">
+                            <div class="thin-section">
 
-            </form>
+                                <input type="Text" class="thinform" placeholder="YOUR NAME*" name="username"  required/>
+                        <input type="email" class="thinform" placeholder="YOUR E-MAIL*" name="e-mail" required autofocus/>
+                        <input type="Text" class="thinform" placeholder="SUBJECT*" name="subject" required />
+
+                            </div>
+
+
+                            <textarea name = "comments"  class="text-area" placeholder="YOUR MESSAGE"></textarea>
+                        <!--<label><input type="checkbox">Згодні з умовами договору</label>-->
+                        <!--<button>login</button>-->
+
+
+
+                        </div>
+
+                        <input type="submit" class="btn"  value="SEND MESSAGE">
+                        <!--<input type="reset" value="Reset">-->
+                        <!--<input type="file">-->
+                        <!--<textarea name="feedback" id="" cols="20" rows="10" maxlength="12"></textarea>-->
+                        <!--<p class="message">Not registered? <a href="#">Create an account</a></p>-->
+
+
+
+                            <!--formdiv-->
+
+
+                    </form>
+                </div>
+            </div>
         </div>
 
     </div>

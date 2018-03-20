@@ -13,12 +13,10 @@
 .wrapper {
     background: white;
     min-height: 675px;
+
 }
 
-.wrapper-contact {
-    background: black;
-   min-height: 675px;
-}
+
 
 .container {
     max-width: 960px;
@@ -109,12 +107,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 80px;
-    /*max-height: 380px;*/
+    margin: 5rem auto 0;
+    max-width: 960px; ;
+    /*min-height: 200px;*/
 }
 
 .service-block {
-    /*max-width: 275px;*/
+    /*max-width: 200px;*/
     flex-basis: 33%;
     position: relative;
 }
@@ -136,9 +135,11 @@
     /*max-height: 100px;*/
     /*text-align: left;*/
     /*margin-bottom: 100px;*/
-
+    /*display: block;*/
+    margin: auto;
     font-family:'RobotoSlab', sans-serif;
-    min-height: 55px;
+    /*max-width: 275px;*/
+    min-height: 80px;
     color:  #777777;
     font-size: 14px;
     font-weight: 400;
@@ -167,3 +168,122 @@
     border:1px solid #fed136;
     border-radius: 100%;
 }
+
+
+
+.wrapper-contact {
+    background: black url("../img/Map-img1.jpg") no-repeat right 114px ;
+    /*background-position: right 114px;*/
+    /*background-repeat: no-repeat;*/
+    min-height: 675px;
+    padding: 112px 0 106px;
+}
+.contact-info {
+
+    max-width: 960px;
+    margin: auto;
+    /*padding-top:6.875rem;*/
+}
+
+.contact-us {
+    margin: auto ;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contact-text {
+    margin: 1.6875rem auto 4.6875rem;
+    text-align: center;
+    font-family:"droid-serif", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color:  #777777;
+    font-size: 16px;
+}
+
+
+.form {
+    margin: auto;
+}
+
+.form-div {
+    display: flex;
+    justify-content: space-around;
+    /*align-items:space-around;*/
+
+}
+
+
+.thin-section {
+    /*padding: 20px;*/
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+
+}
+
+
+.thinform {
+    display: block;
+    /*margin:25px;*/
+    /*width:460px;*/
+    height:50px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color:  #bbbbbb;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    flex-basis: 95%;
+}
+
+.text-area {
+    /*text-align: left;*/
+    /*width:460px;*/
+    /*height: 210px;*/
+    /*padding:auto auto 150px;*/
+    /*display: block;*/
+    font-family: 'Montserrat', sans-serif;
+    color:  #bbbbbb;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    padding:10px;
+    /*width:460px;*/
+    height: 210px;
+    flex-basis: 55%;
+
+}
+
+.btn {
+    display: block;
+    margin: 25px auto 0;
+    border-radius: 3px;
+    background-color:  #fed136;
+    width: 240px;
+    height: 66px;
+    font-family: 'Montserrat', sans-serif;
+    color:  #ffffff;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: center;
+}
+
+
+input:valid {
+    outline: 2px solid green;
+}
+
+input:invalid {
+    outline: 2px solid red;
+}
+
+
+
+
+
