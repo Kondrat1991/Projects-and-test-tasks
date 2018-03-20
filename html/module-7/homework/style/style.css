@@ -1,3 +1,5 @@
+@import "font.css";
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +8,8 @@
     list-style: none;
 }
 
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Roboto Slab', serif;*/
 .wrapper {
     background: white;
     min-height: 675px;
@@ -19,6 +23,11 @@
 .container {
     max-width: 960px;
     margin: auto;
+}
+
+.container-one {
+    /*max-width: 960px;*/
+     /*margin-top: 125px;*/
 }
 
 .header {
@@ -39,22 +48,26 @@
 }
 
 .logo {
-    font-family: Wisdom;
-    color:  #fed136;
-    font-size: 26px;/* Приближение из-за подстановки шрифтов */
-    line-height: 41px;/* Приближение из-за подстановки шрифтов */
+    font-family: 'Wisdom Script', sans-serif;
+    color: #fed136;
+    font-size: 26px;
+    /*line-height: 41px;*/
     text-align: left;
 }
 
 .menu-link {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     color:  #222222;
-    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-size: 14px;
     font-weight: 400;
-    line-height: 41px;/* Приближение из-за подстановки шрифтов */
+    /*line-height: 41px;*/
     text-align: center;
     text-transform: uppercase;
 
+}
+
+.menu-link:hover {
+    color:  #fed136;
 }
 
 .menu-link:hover {
@@ -69,26 +82,88 @@
 
 /*for service-info*/
 .service-info {
-    margin:120px 0 0;
+    margin:190px 0 0;
     text-align: center;
 }
 
 .service-title {
     margin: auto;
-    font-family: Montserrat;
+    font-family: 'Roboto Slab', serif;
     color:  #222222;
-    font-size: 40px;/* Приближение из-за подстановки шрифтов */
+    font-size: 40px;
     font-weight: 700;
-    line-height: 75px;/* Приближение из-за подстановки шрифтов */
+    /*line-height: 75px;*/
     text-align: center;
     text-transform: uppercase;
 }
 
 .service-info {
-    font-family: DroidSerif;
+    font-family: 'Montserrat', sans-serif;
     color:  #777777;
-    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-size: 16px;
     font-style: italic;
     text-align: center;
 }
 
+.service-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    /*max-height: 380px;*/
+}
+
+.service-block {
+    /*max-width: 275px;*/
+    flex-basis: 33%;
+    position: relative;
+}
+
+.block-info {
+    font-family: 'Montserrat', sans-serif;
+    color:  #222222;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 75px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.block-text {
+    /*color:#999999;*/
+    /*font-family: var(--robo);*/
+    /*font-size: 15px;*/
+    /*max-width: 280px;*/
+    /*max-height: 100px;*/
+    /*text-align: left;*/
+    /*margin-bottom: 100px;*/
+
+    font-family:'RobotoSlab', sans-serif;
+    min-height: 55px;
+    color:  #777777;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+
+.block-icon {
+    display: block;
+    margin: auto;
+    /*position: absolute;*/
+    padding: 15px;
+    /*width: 40px;*/
+    /*height: 39px;*/
+    /*width: 80px;*/
+    /*height: 80px;*/
+    /*left: 120px;*/
+    /*top: -65px;*/
+    /*background-image: url(../img/Circle-1.png);*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size:100%;*/
+    border:1px solid #fed136;
+    border-radius: 100%;
+}

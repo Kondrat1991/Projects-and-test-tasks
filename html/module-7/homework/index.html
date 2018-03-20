@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,500i,700,900i|Roboto+Slab" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <title>module-07</title>
 </head>
@@ -22,26 +23,31 @@
         </header>
     </div>
 
-    <div class="container">
+
         <div class="service-info">
             <h2 class="service-title">services</h2>
             <p class="text">Lorem ipsum dolor sit amet, consectetur.</p>
         </div>
         <div class="service-section">
-            <div class="service-block"><img src="" alt="#" class="block-icon">
+            <div class="service-block">
+
+
+                <img src="img/Icon-Basket.png" alt="basket" class="block-icon">
+
+
                 <h3 class="block-info">E-Commerce</h3>
                 <p class="block-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos dolorem nisi non praesentium quasi rerum sapiente suscipit ullam?</p>
             </div>
-            <div class="service-block"><img src="" alt="#" class="block-icon">
+            <div class="service-block"><img src="img/Icon-Laptop.png" alt="#" class="block-icon">
                 <h3 class="block-info">Responsive Web</h3>
                 <p class="block-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque cum esse et facilis molestias praesentium quae ratione.</p>
             </div>
-            <div class="service-block"><img src="" alt="#" class="block-icon">
+            <div class="service-block"><img src="img/Icon-Locked.png" alt="#" class="block-icon">
                 <h3 class="block-info">Web Security</h3>
                 <p class="block-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, eaque ipsa molestias nostrum obcaecati qui repudiandae suscipit veniam.</p>
             </div>
         </div>
-    </div>
+
 
 </div>
 
@@ -52,11 +58,24 @@
             <h2 class="contact-us">contact us</h2>
             <p class="contact-text">Lorem ipsum dolor sit amet, consectetur.</p>
         </div>
-        <div class="submit">your-email</div>
-        <div class="submit">your name</div>
-        <div class="submit">subject</div>
-        <div class="submit">your message</div>
-        <button class="btn">send message</button>
+        <div class="container">
+            <form action="/action_page.php">
+
+                <input type="text" id="fname" name="firstname" placeholder="YOUR NAME*..">
+
+
+                <input type="text" id="lname" name="lastname" placeholder="YOUR E-MAIL..">
+
+                <input type="text" id="lname" name="lastname" placeholder="SUBJECT..">
+
+                <input type="text" id="lname" name="lastname" placeholder="YOUR MESSAGE..">
+
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+
     </div>
 </div>
 

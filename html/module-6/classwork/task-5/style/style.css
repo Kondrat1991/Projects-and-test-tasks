@@ -2,8 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    list-style: none;
-    text-decoration: none;
+    /*list-style: none;*/
+    /*text-decoration: none;*/
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 .wrapper {
     background-color: honeydew;
     padding:20px 25px ;
-    width: 400px;
+    /*width: 400px;*/
     min-height: 500px;
     margin: auto;
 }
@@ -65,3 +65,90 @@ body {
 .container:hover > .btn {
     transform: scale(2,1);
 }
+
+.table-wrapper {
+    margin: 10px 0;
+    /*min-width: 400px;*/
+    background-color: green;
+    padding: 20px;
+
+}
+
+.table {
+    margin: auto;
+    font-size: 30px;
+    width: 500px;
+    min-height: 500px;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+.caption {
+
+    font-weight: 700;
+}
+
+
+.th {
+    background-color: gray;
+    border: none;
+    color: white;
+}
+
+
+.th:hover {
+    background-color: white;
+    color: gray;
+}
+.td {
+    border:3px solid black;
+    text-align: center;
+}
+
+.td:nth-child(-n+1) {
+    text-transform: uppercase;
+}
+
+
+.second {
+    margin: auto;
+    font-size: 20px;
+    width: 500px;
+    min-height: 500px;
+    border: none;
+    /*border: 3px solid black;*/
+    /*border-collapse: collapse;*/
+}
+
+.name-title {
+    background-color: gray;
+    padding: 2px 25px;
+    /*border: none;*/
+    color: white;
+}
+
+.row {
+    border:3px solid black;
+    padding: 20px;
+}
+
+.third {
+    margin: 10px auto;
+    font-size: 30px;
+    width: 500px;
+    min-height: 500px;
+    border: 3px solid black;
+    border-collapse: collapse;
+
+}
+
+.row-third:nth-child(2n+2) {
+    background-color: red;
+
+}
+
+
+
+
+
+
