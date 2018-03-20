@@ -245,12 +245,7 @@
     transition: linear 200ms;
 }
 
-.photocard:hover > .icon:hover {
-    background: url(../img/facebook.png) #f38181 no-repeat center ;
-    background-blend-mode: screen;
-    transition: linear 200ms;
-}
-/*item background*/
+
 .facebook {
     display: none;
     position: absolute;
@@ -263,7 +258,11 @@
 }
 
 
-
+.photocard:hover > .facebook:hover {
+    background: url(../img/facebook.png) #f38181 no-repeat center ;
+    background-blend-mode: screen;
+    transition: linear 200ms;
+}
 
 
 .twitter {
@@ -277,7 +276,11 @@
     height: 56px;
 }
 
-
+.photocard:hover > .twitter:hover {
+    background: url(../img/twitter.png) #f38181 no-repeat center ;
+    background-blend-mode: screen;
+    transition: linear 200ms;
+}
 
 
 .pinterest {
@@ -291,7 +294,11 @@
     display: none;
 }
 
-
+.photocard:hover > .pinterest:hover {
+    background: url(../img/pinterest.png) #f38181 no-repeat center ;
+    background-blend-mode: screen;
+    transition: linear 200ms;
+}
 
 
 .instagram {
@@ -305,7 +312,11 @@
     display: none;
 }
 
-
+.photocard:hover > .instagram:hover {
+    background: url(../img/pinterest.png) #f38181 no-repeat center ;
+    background-blend-mode: screen;
+    transition: linear 200ms;
+}
 
 /*team-img-title*/
 .team-name {
