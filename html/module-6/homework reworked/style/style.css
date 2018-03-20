@@ -216,7 +216,7 @@
  position: relative;
 }
 
-.photocard:hover {
+.photocard:hover  {
     transform: translate(-10px, -10px);
     background:linear-gradient(to bottom, #f0898a, #e6cf81) center;
     background-size: cover;
@@ -239,6 +239,18 @@
 
 /*thats for social icons only*/
 
+/*hovering*/
+.photocard:hover > .icon {
+    display: block;
+    transition: linear 200ms;
+}
+
+.photocard:hover > .icon:hover {
+    background: url(../img/facebook.png) #f38181 no-repeat center ;
+    background-blend-mode: screen;
+    transition: linear 200ms;
+}
+/*item background*/
 .facebook {
     display: none;
     position: absolute;
@@ -250,16 +262,9 @@
     height: 56px;
 }
 
-.photocard:hover > .facebook {
-    display: block;
-    transition: linear 200ms;
-}
 
-.photocard:hover > .facebook:hover {
-    background: url(../img/facebook.png) #f38181 no-repeat center ;
-    background-blend-mode: screen;
-    transition: linear 200ms;
-}
+
+
 
 .twitter {
     display: none;
@@ -272,16 +277,6 @@
     height: 56px;
 }
 
-.photocard:hover > .twitter {
-    display: block;
-    transition: linear 200ms;
-}
-
-.photocard:hover > .twitter:hover {
-    background: url(../img/twitter.png) #f38181 no-repeat center ;
-    background-blend-mode: screen;
-    transition: linear 200ms;
-}
 
 
 
@@ -296,16 +291,7 @@
     display: none;
 }
 
-.photocard:hover > .pinterest {
-    display: block;
-    transition: linear 200ms;
-}
 
-.photocard:hover > .pinterest:hover {
-    background: url(../img/pinterest.png) #f38181 no-repeat center ;
-    background-blend-mode: screen;
-    transition: linear 200ms;
-}
 
 
 .instagram {
@@ -319,16 +305,6 @@
     display: none;
 }
 
-.photocard:hover > .instagram {
-    display: block;
-    transition: linear 200ms;
-}
-
-.photocard:hover > .instagram:hover {
-    background: url(../img/instagram.png) #f38181 no-repeat center ;
-    background-blend-mode: screen;
-    transition: linear 200ms;
-}
 
 
 /*team-img-title*/
