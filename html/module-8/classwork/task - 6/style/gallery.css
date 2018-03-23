@@ -1,0 +1,70 @@
+@import "var.css";
+@import "reset.css";
+@import "header.css";
+@import "footer.css";
+
+
+.wrapper-img {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/gallery-bg.jpg);
+
+}
+
+.gallery {
+    margin: 2rem 0 1.3rem;
+}
+
+
+.gallery-text {
+    text-align: center;
+}
+
+
+.gallery-image {
+    transition: 1s;
+}
+
+
+.gallery-image:hover{
+    transform: translate(0, -0.5rem);
+    box-shadow: 0.5rem 0.5rem 0.2rem #777;
+}
+
+
+.gallery-image:nth-child(odd):hover {
+    transform: translate(0, -0.5rem);
+    box-shadow: 0.5rem 0  0.2rem  #777;
+}
+
+.gallery-image:last-child:hover {
+    transform: translate(0, -0.5rem);
+    box-shadow: 0.5rem 0.5rem 0.2rem #777;
+}
+
+@media (min-width:768px) {
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .gallery-image {
+        width: 50%;
+        flex-grow: 1;
+
+        /*align-self: flex-start;*/
+    }
+}
+
+
+/*@media(min-width: 992px)  {*/
+
+    /*.about {*/
+        /*padding: 11rem 0;*/
+        /*font-size: 3.875rem;*/
+    /*}*/
+    /*.title {*/
+        /*font-size: 3.875rem;*/
+    /*}*/
+
+/*}*/
+

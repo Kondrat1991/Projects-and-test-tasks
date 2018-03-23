@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.wrapper {
+    background-color: wheat;
+}
+
+.container {
+    background-color: greenyellow;
+    max-width: 50rem;
+    height: 50rem;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding: 1.0625rem 0 2.5rem;
+    height: auto;
+    max-width: 100%
+}
+

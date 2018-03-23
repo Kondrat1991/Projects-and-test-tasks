@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+.container {
+    margin: auto;
+    min-width: 320px;
+    max-width: 960px;
+    /*height: 100vh;*/
+    background: orangered;
+    padding: 0 1rem;
+}
+
+.box {
+    width: 100%;
+    padding: 0.50rem;
+    /*margin: auto;*/
+}
+
+/*.box-1 {*/
+    /*background-color: yellow;*/
+/*}*/
+
+.img {
+   display: block;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+/*.box-2 {*/
+    /*background-color: rebeccapurple;*/
+/*}*/
+
+/*.box-3 {*/
+    /*background-color: blue;*/
+/*}*/
+
+
+/*@media(min-width: 768px)  {*/
+
+
+    /*.container {*/
+    /*display: flex;*/
+        /*justify-content: space-between;*/
+/*}*/
+
+    /*.box {*/
+        /*flex-basis: 30%;*/
+    /*}*/
+/*}*/
+
+/*@media (min-width: 968px) {*/
+    /*.container {*/
+        /*flex-direction: row-reverse;*/
+    /*}*/
+
+/*}*/
+
+    /*@media (min-width: 1440px) {*/
+
+        /*.box-1 {*/
+            /*background-color: darkviolet;*/
+        /*}*/
+
+        /*.box-2 {*/
+            /*background-color: gainsboro;*/
+        /*}*/
+
+        /*.box-3 {*/
+            /*background-color: firebrick;*/
+        /*}*/
+
+    /*}*/
+
+/*@media screen and (orientation: landscape)  {*/
+
+/*}*/
+
+
+
+
+
