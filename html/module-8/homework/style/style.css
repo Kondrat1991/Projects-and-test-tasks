@@ -47,7 +47,7 @@ img {
 
 .menu {
     display: flex;
-    margin: 0 auto 8.150rem;
+    margin: 0 auto 12.150rem;
     justify-content:center;
     /*width: 10.625rem;*/
     /*width: 57.48%;*/
@@ -57,7 +57,7 @@ img {
 }
 
 .menu-reverse{
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 .menu-item {
     /*flex-basis:50%;*/
@@ -100,7 +100,7 @@ img {
     width: 80%;
     text-align: center;
     font-size: 1.875rem;
-    line-height:1.875rem ;
+    /*line-height:1.875rem ;*/
     color: #fff;
     text-transform: uppercase;
 }
@@ -112,7 +112,7 @@ img {
     font-weight: 300;
     font-size: 1.125rem;
     line-height: 1.125rem;
-    margin:0 auto 1rem;
+    margin:0 auto 4rem;
     letter-spacing: 0.125rem;
     text-align: center;
      width: 70.7%;
@@ -177,7 +177,7 @@ img {
 }
 
 .team-gallery {
-    margin: auto;
+    margin: 0 auto 1.625rem;
     text-align: center;
 }
 
@@ -228,7 +228,7 @@ img {
 
 .footer-btn {
     display: block;
-    margin:1.625rem auto 0;
+    margin: auto;
     font-family:var(--mont);
     color: #ff4e50;
     font-size: 0.875rem;
@@ -257,7 +257,7 @@ img {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        margin-bottom: 6.5rem;
+        margin-bottom:14.625rem;
         /*width: 80%;*/
     }
 
@@ -274,8 +274,8 @@ img {
     .service-title {
         font-size:3.125rem;
         /*width: 90%;*/
-        margin-bottom:1.5rem;
-        line-height: 3rem;
+        margin-bottom:1rem;
+        line-height: 4rem;
     }
 
     .text {
@@ -283,13 +283,17 @@ img {
         margin-bottom: 2.4rem;
     }
 
-     .btn {
-        margin-bottom: 14.75rem;
-         width: 30%;
+     .header {
+         padding-bottom: 14.75rem;
+     }
+
+    .service-btn {
+        /*margin-bottom: 14.75rem;*/
+         width: 35%;
     }
 
-     .footer-btn {
-         margin-bottom:2.625rem;
+     .team {
+         padding-bottom:2.625rem;
      }
 
 
@@ -299,6 +303,7 @@ img {
          flex-wrap: wrap;
          align-content: space-between;
          justify-content: space-around;
+         margin-bottom: 2.5rem;
          /*flex-basis: 25%;*/
 
      }
@@ -347,8 +352,13 @@ img {
         margin-bottom: 0;
     }
 
+
+    .team {
+     padding-bottom: 7.25rem;
+    }
+
     .footer-btn {
-        margin:2.25rem auto 4.5rem;
+        margin: auto;
     }
 
     .team-gallery {
