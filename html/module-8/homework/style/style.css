@@ -292,9 +292,9 @@ img {
          width: 35%;
     }
 
-     .team {
-         padding-bottom:2.625rem;
-     }
+     /*.team {*/
+         /*padding-bottom:2.625rem;*/
+     /*}*/
 
 
 
@@ -353,9 +353,9 @@ img {
     }
 
 
-    .team {
-     padding-bottom: 7.25rem;
-    }
+    /*.team {*/
+     /*padding-bottom: 7.25rem;*/
+    /*}*/
 
     .footer-btn {
         margin: auto;
