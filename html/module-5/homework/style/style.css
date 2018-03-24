@@ -155,7 +155,7 @@
     /*display:inline-block;*/
     background-color:#e9f0fd;
     margin: 0;
-    /*padding:100px 0 0;*/
+    padding:100px 0 0;
 }
 
 .container-content {
@@ -311,7 +311,7 @@
 .wrapper-footer {
     background-color: #e9f0fd;
     /*margin-top:100px ;*/
-    padding: 100px 0 0;
+    /*padding: 100px 0 0;*/
 }
 
 

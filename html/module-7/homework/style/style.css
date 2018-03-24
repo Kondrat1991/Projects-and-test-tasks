@@ -30,6 +30,12 @@
 
 .header {
     padding-top:3.125rem;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+}
+
+.header-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -152,7 +158,7 @@
 .contact-info {
 
     max-width: 60rem;
-    margin: auto;
+    margin: auto auto 4.6875rem;
     /*padding-top:6.875rem;*/
 }
 
@@ -167,7 +173,7 @@
 }
 
 .contact-text {
-    margin: 1.6875rem auto 4.6875rem;
+    margin-top: 1.6875rem;
     text-align: center;
     font-family:"droid-serif", sans-serif;
     font-weight: 700;
