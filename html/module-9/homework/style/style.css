@@ -1,35 +1,8 @@
 @import "var.css";
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-}
-
-
-
-
-
-.wrapper {
-    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), #fff url("../img/Vector Smart Object.jpg")  center no-repeat  fixed ;
-    background-size: cover;
-    padding: 2.3125rem 0 8.625rem;
-}
-
-.wrapper-team {
-    background-color:#fff;
-    padding: 4.5rem 0 3.625rem;
-}
-
-
-.container {
-    min-width: 20rem;
-    max-width: 58.75rem;
-    margin: auto;
-    /*padding: 1rem;*/
-    /*text-shadow: black  1px 1px 1px;*/
+.bg-img {
+    /*text-decoration: none;*/
+    /*list-style: none;*/
 }
 
 img {
@@ -38,25 +11,38 @@ img {
     max-width: 100%;
 }
 
-/*.header {*/
-    /*padding: 1.125rem 0 8.4375rem;*/
 
-/*}*/
+.holidays-bg {
+    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/Vector Smart Object.jpg") center no-repeat fixed ;
+    background-size: cover;
+    /*max-width: 55.25rem;*/
 
+}
 
-
+.sub-container {
+    min-width: 20rem;
+    max-width: 58.75rem;
+    padding: 2.3125rem 0 8.625rem;
+    margin: auto;
+}
 .menu {
     display: flex;
+    padding: 0;
     margin: 0 auto 12.150rem;
     justify-content:center;
     /*width: 10.625rem;*/
     /*width: 57.48%;*/
     text-align: center;
+    list-style: none;
     color: #fff;
 
 }
 
 .menu-reverse{
+    /*display: flex;*/
+    /*flex-direction: row-reverse;*/
+    /*justify-content: space-between;*/
+    /*margin-bottom:14.625rem;*/
     margin-bottom: 5rem;
 }
 .menu-item {
@@ -96,7 +82,7 @@ img {
 
 .service-title {
     font-family: var(--mont);
-    margin: 0 auto 0.875rem;
+    margin: 0 auto 1rem;
     width: 80%;
     text-align: center;
     font-size: 1.875rem;
@@ -115,7 +101,7 @@ img {
     margin:0 auto 4rem;
     letter-spacing: 0.125rem;
     text-align: center;
-     width: 70.7%;
+    width: 70.7%;
 
 }
 
@@ -142,109 +128,22 @@ img {
     color: #ff4e50;
     background-color: #ffffff;
 }
+/*end of first section with logo  */
 
-
-
-
-.icon {
-    display: block;
-    width: 2rem;
-    height: 2rem;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-
-.wrapper-team {
+.white-bg {
     background-color: #fff;
 }
 
-
-
-.team {
-    /*padding: 4.375rem 0 3.625rem;*/
-}
-
-.team-title {
-    margin: 0 auto 2rem;
-    font-family:var(--mont);
-    color:  #333333;
-    width:80%;
-    font-size: 1.375rem;
-    font-weight: 700;
-    text-align: center;
-}
-
-.team-gallery {
-    margin: 0 auto 1.625rem;
-    text-align: center;
-}
-
-.gallery-section {
-    margin: auto 0 1.75rem;
-    font-family: var(--rob);
-
-
-}
-
-.gallery-section:last-child {
-    margin-bottom: 0;
-}
-
-
-.team-img {
-    display: block;
-    margin-top: 1.25rem;
-    margin-bottom: 1.375rem;
-    border-radius: 100%;
-    /*width: 100%;*/
-}
-
-
-.gallery-image {
-    position: relative;
-     width:7.25rem;
-    height: 7.25rem;
+.team-bg {
     margin: auto;
 }
 
+.color {
+    background-color: red;
+    height: 100vh;
 
-.team-info {
-    margin-top:1.25rem;
-    font-family: var(--mont);
-    color:  #333333;
-    font-size: 0.875rem;
-    font-weight: 700;
-    text-align: center;
 }
 
-.team-text {
-    margin:1rem auto 0;
-    text-align: center;
-    min-height:3.75rem;
-    width: 70%;
-}
-
-.footer-btn {
-    display: block;
-    margin: auto;
-    font-family:var(--mont);
-    color: #ff4e50;
-    font-size: 0.875rem;
-    font-weight: 700;
-    text-align: center;
-    border-radius: 1.25rem;
-    border: solid 2px #ff4e50 ;
-    background-color:  #ffffff;
-    width: 90%;
-    height: 2.5rem;
-}
-
-.footer-btn:hover {
-    color: #ffffff;
-    background-color: #ff4e50;
-}
 
 @media(min-width: 768px){
 
@@ -268,7 +167,7 @@ img {
 
 
     /*.logo {*/
-        /*margin: 0;*/
+    /*margin: 0;*/
     /*}*/
 
     .service-title {
@@ -283,36 +182,35 @@ img {
         margin-bottom: 2.4rem;
     }
 
-     .header {
-         padding-bottom: 14.75rem;
-     }
-
-    .service-btn, .footer-btn {
-        /*margin-bottom: 14.75rem;*/
-         width: 35%;
+    .header {
+        padding-bottom: 14.75rem;
     }
 
+    .service-btn {
+        /*margin-bottom: 14.75rem;*/
+        width: 35%;
+    }
 
-     /*.team {*/
-         /*padding-bottom:2.625rem;*/
-     /*}*/
+    /*.team {*/
+    /*padding-bottom:2.625rem;*/
+    /*}*/
 
 
 
-     .team-gallery {
-         display: flex;
-         flex-wrap: wrap;
-         align-content: space-between;
-         justify-content: space-around;
-         margin-bottom: 2.5rem;
-         /*flex-basis: 25%;*/
+    .team-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-around;
+        margin-bottom: 2.5rem;
+        /*flex-basis: 25%;*/
 
-     }
+    }
 
-     .gallery-section {
-         margin: 0 0 1.875rem;
-         flex-basis: 35%;
-     }
+    .gallery-section {
+        margin: 0 0 1.875rem;
+        flex-basis: 35%;
+    }
 
     .gallery-section:nth-child(1) {
         order: 1;
@@ -355,7 +253,7 @@ img {
 
 
     /*.team {*/
-     /*padding-bottom: 7.25rem;*/
+    /*padding-bottom: 7.25rem;*/
     /*}*/
 
     .footer-btn {
@@ -371,14 +269,11 @@ img {
         flex-basis: 25%;
     }
 
-     .team-text {
-         font-size: 0.875rem;
-         width: 90%;
-     }
+    .team-text {
+        font-size: 0.875rem;
+        width: 90%;
+    }
 
 }
-
-
-
 
 
