@@ -20,7 +20,7 @@ img {
 }
 
 .sub-container {
-    min-width: 20rem;
+    /*min-width: 20rem;*/
     max-width: 58.75rem;
     padding: 2.3125rem 0 8.625rem;
     margin: auto;
@@ -344,7 +344,7 @@ img {
     }
 
     .service-title {
-        width: 65%;
+        /*width: 65%;*/
     }
 
     .gallery-section {
