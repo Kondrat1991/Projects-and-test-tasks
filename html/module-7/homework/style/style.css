@@ -241,6 +241,8 @@
     font-size: 1.125rem;
     font-weight: 700;
     text-align: center;
+    border: none;
+    outline: none;
 }
 
 
