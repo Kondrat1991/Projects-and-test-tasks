@@ -28,7 +28,7 @@ img {
 .menu {
     display: flex;
     padding: 0;
-    margin: 0 auto 12.150rem;
+    margin: 0 auto 17rem;
     justify-content:center;
     /*width: 10.625rem;*/
     /*width: 57.48%;*/
@@ -38,12 +38,25 @@ img {
 
 }
 
+
+
+
+.menu-reverse-row {
+   justify-content: space-around;
+    margin-bottom:3.150rem;
+
+}
+
+
+
+
+
 .menu-reverse{
     /*display: flex;*/
     /*flex-direction: row-reverse;*/
     /*justify-content: space-between;*/
     /*margin-bottom:14.625rem;*/
-    margin-bottom: 5rem;
+    /*margin-bottom: 5rem;*/
 }
 .menu-item {
     /*flex-basis:50%;*/
@@ -52,6 +65,7 @@ img {
 
 .menu-link {
     font-family: var(--mont);
+    /*min-width: 0.25rem;*/
     padding: 0.75rem 1rem;
     font-size:0.875rem;
     font-weight:700;
@@ -85,7 +99,7 @@ img {
     margin: 0 auto 1rem;
     width: 80%;
     text-align: center;
-    font-size: 1.875rem;
+    font-size: 2.875rem;
     /*line-height:1.875rem ;*/
     color: #fff;
     text-transform: uppercase;
@@ -252,17 +266,28 @@ img {
         margin: auto;
     }
 
+
+
+    .row-reverse {
+        min-width: 40rem;
+        margin: auto;
+    }
+
     .menu-reverse {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        margin-bottom:14.625rem;
+        /*display: flex;*/
+        /*flex-direction: row-reverse;*/
+        /*justify-content: space-between;*/
+        /*margin-bottom:14.625rem;*/
         /*width: 80%;*/
+    }
+
+    .menu-reverse-row {
+        margin-bottom: 18rem;
     }
 
 
     .menu {
-        margin: 0;
+        margin: auto;
     }
 
 
@@ -279,7 +304,7 @@ img {
 
     .text {
         font-size: 1.5rem;
-        margin-bottom: 2.4rem;
+        margin-bottom: 8rem;
     }
 
     .header-container {
@@ -349,11 +374,15 @@ img {
     }
 
     .service-title {
-        /*width: 65%;*/
+        width: 65%;
     }
 
     .gallery-section {
         margin-bottom: 0;
+    }
+
+    .text {
+        margin-bottom: 12rem;
     }
 
 
@@ -363,6 +392,7 @@ img {
 
     .footer-btn {
         margin: auto;
+        /*width: 35%;*/
     }
 
     .team-gallery {
