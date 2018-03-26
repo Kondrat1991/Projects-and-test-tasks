@@ -21,7 +21,7 @@ img {
 
 .sub-container {
     /*min-width: 20rem;*/
-    max-width: 58.75rem;
+    /*max-width: 58.75rem;*/
     padding: 2.3125rem 0 8.625rem;
     margin: auto;
 }
@@ -282,8 +282,13 @@ img {
         margin-bottom: 2.4rem;
     }
 
+    .header-container {
+        margin: auto;
+    }
+
     .header {
         padding-bottom: 14.75rem;
+        margin: auto;
     }
 
     .service-btn, .footer-btn {
@@ -298,10 +303,10 @@ img {
 
 
     .team-gallery {
-        display: flex;
-        flex-wrap: wrap;
+        /*display: flex;*/
+        /*flex-wrap: wrap;*/
         /*align-content: space-between;*/
-        justify-content: space-around;
+        /*justify-content: space-around;*/
         margin-bottom: 2.5rem;
         /*flex-basis: 25%;*/
 
@@ -309,7 +314,7 @@ img {
 
     .gallery-section {
         margin: 0 0 1.875rem;
-        flex-basis: 35%;
+        /*flex-basis: 35%;*/
     }
 
     .gallery-section:nth-child(1) {
@@ -366,7 +371,7 @@ img {
     }
 
     .gallery-section {
-        flex-basis: 25%;
+        /*flex-basis: 25%;*/
     }
 
     .team-text {
