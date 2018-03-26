@@ -173,6 +173,7 @@
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom: 40px;
 }
 
 .team-span {
@@ -186,7 +187,7 @@
 .team-title:after {
     display: block;
     content: "";
-    margin: 40px auto 45px;
+    margin:40px auto 0;
     background-color:#f38181;
     width: 60px;
     height: 3px;
