@@ -1,3 +1,116 @@
 @import "normalize.css";
 @import "var.css";
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.wrapper-header {
+    background:url("../img/Layer 15.jpg"), linear-gradient(to bottom,#e68182, #efd88a) no-repeat fixed top center;
+    background-size: auto;
+    padding:35px 0 225px;
+}
+
+
+
+.container {
+    max-width: 1240px;
+    margin: auto;
+}
+
+
+.nav-container {
+    /*padding:40px auto 190px;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.nav {
+    flex-basis: 500px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fff;
+    font-family: var(--mont);
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.menu-link {
+    color:#fff;
+    font-family: var(--mont);
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.menu-link:hover {
+    position: relative;
+    top: 2px;
+    color: #fce38a;
+    padding-bottom: 10px;
+    /*width: 50px;*/
+    border-bottom: 3px solid #fce38a;
+    transition: linear 200ms;
+}
+
+.service-title {
+    font-family: var(--kaus);
+    color:  #ffffff;
+    font-size: 72px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+
+.service-subtitle {
+    font-family: var(--mont);
+    color:  #ffffff;
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 140px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.btn {
+    display: block;
+    margin: auto;
+}
+
+
+
+
+.service-btn  {
+
+    font-family: var(--mont);
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 124px auto 0;
+    border-style: solid;
+    border-width: 3px;
+    border-color:  #ffffff;
+    box-sizing: border-box;
+    background-color:  rgba(0, 0, 0, 0);
+    width: 160px;
+    height: 40px;
+    text-transform: uppercase;
+}

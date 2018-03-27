@@ -1,3 +1,4 @@
+
 @import "var.css";
 
 * {
@@ -7,9 +8,6 @@
     text-decoration: none;
     list-style: none;
 }
-
-
-
 
 
 .wrapper {
@@ -28,7 +26,7 @@
     min-width: 20rem;
     max-width: 58.75rem;
     margin: auto;
-    /*padding: 1rem;*/
+    padding:0 1rem;
     /*text-shadow: black  1px 1px 1px;*/
 }
 
@@ -99,7 +97,7 @@ img {
 .service-title {
     font-family: var(--mont);
     margin: 0 auto 0.875rem;
-    width: 80%;
+    /*width: 80%;*/
     text-align: center;
     font-size: 1.875rem;
     /*line-height:1.875rem ;*/
@@ -109,7 +107,7 @@ img {
 
 
 .text {
-    font-family:var(--rob);
+    font-family:var(--robo);
     color:  #ffffff;
     font-weight: 300;
     font-size: 1.125rem;
@@ -117,7 +115,7 @@ img {
     margin:0 auto 2rem;
     letter-spacing: 0.125rem;
     text-align: center;
-     width: 70.7%;
+     /*width: 70.7%;*/
 
 }
 
@@ -158,9 +156,9 @@ img {
 }
 
 
-.wrapper-team {
-    background-color: #fff;
-}
+/*.wrapper-team {*/
+    /*background-color: #fff;*/
+/*}*/
 
 
 
@@ -172,7 +170,7 @@ img {
     margin: 0 auto 2rem;
     font-family:var(--mont);
     color:  #333333;
-    width:80%;
+    /*width:80%;*/
     font-size: 1.375rem;
     font-weight: 700;
     text-align: center;
@@ -185,7 +183,7 @@ img {
 
 .gallery-section {
     margin: auto 0 1.75rem;
-    font-family: var(--rob);
+    font-family: var(--robo);
 
 
 }
@@ -225,7 +223,7 @@ img {
     margin:1rem auto 0;
     text-align: center;
     min-height:3.75rem;
-    width: 70%;
+    /*width: 70%;*/
 }
 
 .footer-btn {
@@ -251,7 +249,7 @@ img {
 @media(min-width: 768px){
 
     .container {
-        max-width: 42.5rem;
+        /*max-width: 42.5rem;*/
         margin: auto;
     }
 
@@ -304,8 +302,8 @@ img {
      .team-gallery {
          display: flex;
          flex-wrap: wrap;
-         align-content: space-between;
-         justify-content: space-around;
+         /*align-content: space-between;*/
+         justify-content: space-evenly;
          margin-bottom: 2.5rem;
          /*flex-basis: 25%;*/
 
