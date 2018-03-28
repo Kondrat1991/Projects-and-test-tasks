@@ -1,0 +1,41 @@
+
+
+
+.box {
+    width: 700px;
+    height:700px;
+    /*display: block;*/
+}
+
+.icon {
+    fill:red;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.icon:nth-last-child(-n+2) {
+    fill:blue;
+}
+
+.icon:hover {
+    fill:green;
+    background-color: gold;
+}
+
+/*example*/
+/*.icon {*/
+    /*width: 5rem;*/
+    /*height: 5rem;*/
+    /*cursor: pointer;*/
+    /*fill: #1EA896;*/
+    /*!*display: block;*!*/
+    /*background-color: #FF715B;*/
+    /*padding: 15px;*/
+/*}*/
+
+/*.icon:hover {*/
+    /*fill: #FF715B;*/
+    /*background-color: #1EA896;*/
+/*}*/

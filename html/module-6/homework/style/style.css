@@ -7,7 +7,12 @@
     /*color: #626262;*/
     text-decoration: none;
     list-style: none;
+
+
 }
+
+
+
 /*.clearfix:after {*/
     /*content: "";*/
     /*display: block;*/
@@ -55,7 +60,6 @@
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
-
 }
 
 .menu-link:hover {

@@ -29,7 +29,7 @@
 /*}*/
 
 .header {
-    padding-top:3.125rem;
+    padding:2.5rem 2rem 0;
     /*display: flex;*/
     /*justify-content: space-between;*/
     /*align-items: center;*/
@@ -37,24 +37,31 @@
 
 .header-menu {
     display: flex;
+    /*width:80%;*/
     justify-content: space-between;
     align-items: center;
 }
 
 
 .nav {
-    flex-basis: 30rem;
+    flex-basis: 28rem;
 }
 
 .menu {
     display: flex;
     justify-content: space-between;
+    /*width: 100%;*/
 }
 
+.menu-item {
+    display: flex;
+}
 .logo {
     font-family: 'Wisdom Script', sans-serif;
     color: #fed136;
+    flex-basis: 25%;
     font-size: 1.625rem;
+    /*line-height: 1.625rem ;*/
     text-align: left;
 }
 
@@ -62,10 +69,13 @@
     font-family: 'Montserrat Bold', sans-serif;
     color:  #222222;
     font-size: 0.875rem;
+    /*line-height: 0.875rem;*/
     font-weight: 700;
-    /*line-height: 2.5625rem;*/
+    line-height: 2.5625rem;
     text-align: center;
     text-transform: uppercase;
+    /*flex-basis: 5%;*/
+    /*letter-spacing: 0.125rem;*/
 
 }
 
