@@ -1,0 +1,60 @@
+.services {
+  padding: rem(40) 0;
+
+  &__body {
+
+    margin: rem(30)0 0;
+
+  }
+
+  %__favor {
+    margin: 0 0 rem(24);
+
+    &:last-child {
+      margin: 0 0 0;
+    }
+  }
+
+}
+
+.favor {
+  padding: rem(40) rem(20);
+  border: rem(1) solid #e5e7e9;
+
+&__img {
+
+  margin: 0 auto rem(36);
+
+}
+
+  &__sub-title {
+    margin: 0 0 rem(16);
+  }
+
+}
+
+@media (min-width: 768px) {
+
+.services {
+  padding: rem(80) 0;
+
+  &__body {
+    display: flex;
+    justify-content: space-around;
+    margin: rem(72) 0 0;
+  }
+
+  &__favor {
+    flex-basis:28%;
+    margin-bottom: 0;
+  }
+}
+
+
+}
+
+
+
+
+
+

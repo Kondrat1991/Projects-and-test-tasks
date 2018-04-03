@@ -1,0 +1,149 @@
+.learn {
+  padding: rem(48) 0;
+
+  &__body {
+    margin: rem(24) 0 0;
+  }
+
+  &__post {
+    display: flex;
+    border: rem(1) solid #d7d7d7;
+    margin: 0 0 rem(30);
+
+    &__:last-child {
+      margin: 0;
+    }
+  }
+
+  &__date {
+    background-color: $green;
+    color: $white;
+    font-size: rem(24);
+    font-weight: 700;
+    font-family:$font;
+    text-align: center;
+    text-transform: uppercase;
+    padding: rem(13);
+  }
+
+  &__desc {
+    padding: rem(13) rem(20);
+
+  }
+
+  &__text {
+
+    text-transform: capitalize;
+    font-weight: 700;
+    color: $black;
+    font-family:$font;
+    margin: 0 0 rem(8);
+  }
+
+  &__comment {
+
+    font-size: rem(14);
+  color: $green;
+  font-family: $font;
+  text-transform: uppercase;
+
+  }
+
+  &__item {
+    margin: 0 0 rem(32);
+
+
+  &:last-child {
+    margin: 0;
+  }
+
+    &--bgc {
+      background-color: $bg-color;
+      color: $white;
+      padding: rem(32);
+    }
+
+    & > .sub-title--green {
+  text-align: center;
+  text-transform: uppercase;
+}
+  }
+
+  &__list {
+    margin-top: rem(20);
+    font-family: $font;
+    font-weight: 700;
+  }
+
+&__tick {
+
+  line-height: rem(32);
+}
+
+
+}
+
+@media (min-width: 768px) {
+
+
+  .learn  {
+    padding: rem(80) 0;
+
+    &__body  {
+      margin: rem(72) 0;
+    }
+
+    &__date {
+     font-size: rem(25);
+      padding: rem(20);
+    }
+
+    &__desc {
+      flex-basis: 100%;
+      padding: rem(24) rem(27) rem(18);
+    }
+
+  &__text {
+
+    font-size: rem(20);
+  }
+
+    &__item--bgc {
+      padding: rem(48);
+
+      &__list {
+        margin: rem(52) 0 0;
+      }
+    }
+
+  }
+
+
+
+}
+
+@media (min-width: 1024px) {
+
+  .learn {
+
+    &__body {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    &__item {
+      flex-basis: 45%;
+      margin: 0;
+    }
+
+    &__post:last-child {
+      margin: 0;
+
+    }
+
+  }
+
+
+
+}
+

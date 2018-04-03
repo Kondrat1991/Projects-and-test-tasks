@@ -1,0 +1,22 @@
+.wrapper {
+  background-color: $white;
+
+  &--slider {
+    background-image: url("../img/bann2.jpg");
+    @include bg-img;
+  }
+
+  &--about {
+    background-image: url("../img/bann3.jpg");
+    @include bg-img;
+  }
+
+  &--news {
+    background-image: url("../img/bann1.jpg");
+    @include bg-img;
+  }
+
+  &--footer {
+    background-color: #0b0c11;
+  }
+}
