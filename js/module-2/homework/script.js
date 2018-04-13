@@ -1,6 +1,6 @@
 // 1 task
 
-/*let hotel  = +prompt('Enter your number');
+let hotel  = +prompt('Enter your number');
 
 if (hotel === 1) {
     console.log('taba');
@@ -16,7 +16,7 @@ else if (hotel === 3) {
 
 else {
     console.log('fuckup');
-}*/
+}
 
 
 
