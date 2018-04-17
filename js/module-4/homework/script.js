@@ -14,7 +14,7 @@
 //    5) Если checkIfLoginExists вернет false, добавить новый логин в logins. Если checkIfLoginExists вернет true, тогда addLogin не добавляет логин в массив и возвращает строку 'Такой логин уже используется!'.
 // My work
 const logins = ["Mango", "robotGoogles", "Poly", "Aj4x1sBozz", "qwerty123"];
-let login = prompt('Enter your login');
+let login = prompt('Введите логин');
 function addLogin(login) {
     if (checkLoginValidity(login) === false)  {
         alert('Ошибка! Логин должен быть от 4 до 16 символов');
@@ -36,6 +36,7 @@ function checkIfLoginExists(login) {
         alert('Такой логин уже используется!');
     } else {
         logins.push(login);
+        alert('Thank you');
     }
 
 }
