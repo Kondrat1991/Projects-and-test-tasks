@@ -33,12 +33,12 @@ console.log(javascript);
 
 let trainer = containerArr[0][4]+containerArr[0][3]+containerArr[1][0]+containerArr[0][7]+containerArr[2][5]+containerArr[0][2]+containerArr[0][3];
 console.log(trainer);
+
+
 // let contone = (containerArr[0]);
 // console.log(contone);
-
 // console.log(contone[0]+[1]);
 // console.log(contone[1]);
-
 // console.log(containerArr[0][2]);
 // console.log(find(containerArr, "]"));
 // console.log(letterArr1.charAt("]"));
