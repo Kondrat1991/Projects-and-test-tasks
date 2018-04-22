@@ -1,3 +1,16 @@
+// array, null, object = null;
+
+// array, null, object = null;
+
+// array, null, object = null;
+
+// array, null, object = null;
+
+// array, null, object = null;
+
+// array, null, object = null;
+
+
 // Task 1
 /*const string = "May the force be with you";
 
@@ -614,7 +627,7 @@ function findLongestWord(string) {
 
 
 
-/*  
+/*
   Есть массив уникальных чисел uniqNumbers.
   
   Написать функцию, addUniqNumbers(...), 
@@ -623,22 +636,22 @@ function findLongestWord(string) {
   а повторяющиеся игнорирует.
 */
 
-const uniqNumbers  = [2, 1, 4, 9];
-function addUniqNumbers(){
-    let arr = Array.from(arguments);
-    console.log(arr);
-    for (let number of arr ) {
-        if(!uniqNumbers.includes(number)) {
-            uniqNumbers.push(number);
-        }
-        // return uniqNumbers;
-    }
-}
-// console.log(b.includes('r'));
-//
-// // Вызовы функции для проверки
-addUniqNumbers(1, 2, 3);
-console.log(uniqNumbers);
+// const uniqNumbers  = [2, 1, 4, 9];
+// function addUniqNumbers(){
+//     let arr = Array.from(arguments);
+//     console.log(arr);
+//     for (let number of arr ) {
+//         if(!uniqNumbers.includes(number)) {
+//             uniqNumbers.push(number);
+//         }
+//         // return uniqNumbers;
+//     }
+// }
+// // console.log(b.includes('r'));
+// //
+// // // Вызовы функции для проверки
+// addUniqNumbers(1, 2, 3);
+// console.log(uniqNumbers);
 
 //
 // addUniqNumbers(12, 2, 3, 19);
@@ -719,3 +732,103 @@ console.log(uniqNumbers);
 //
 // addLogin(1, 2, 3);
 // console.log(addLogin());
+
+//task 41
+// let word = ("Enter here your word");
+// let result = (Math.floor(Math.random() * word.length));
+// let randomLetter = word[result];
+// console.log(randomLetter);
+
+//Найдите суму всех товаров в корзине магазина без мелочи, с мелочью
+
+
+
+/*let basket = [54.5, 40.5, 32,5, 85,678, 21 ];
+let sum1 = 0;
+let sum2 = 0;
+
+for(let number of basket) {
+    sum1 =sum1 +( parseInt(number));
+    sum2 = sum2 + number;
+
+}
+console.log(sum1);
+console.log(sum2);*/
+// Task 43
+//Составте строку из 5-ти случайных букв алфавита
+
+/*let alphabet = 'ABCDEFGHIGKLMNOPQRSTUVWXYZ';
+let result = '';
+let num = 0;
+// let container = alphabet.split('');
+// console.log(container);
+
+for (let i = 0; i < 5; i++) {
+    num = Math.floor(Math.random() * alphabet.length);
+    // console.log(alphabet[num]);
+    result = result + alphabet[num];
+    // console.log(result);
+}
+console.log(result);*/
+// Task 45
+//
+// Перевірити введену інфу число, чи воно є ціле і додатнє.
+
+/*let userNumber = prompt('Enter here your number');
+if(Number.isInteger(+userNumber) && +userNumber > 0 ) {
+    alert('True');
+
+}
+
+else {
+    alert('False');
+
+}*/
+
+// Используя логику создания массива клавиатурных строк, создать функцию addKeyboardLayout(alphabet) которая на входе получает строку-алфавит и возвращает массив-массивов клавиатурных строк.
+
+// let alphabet = 'qwertyuiop[]asdfghjkl;\'zxcvbnm,./';
+//
+// function addKeyboardLayout(alphabet)  {
+//
+//     let newArr =(alphabet.split(""));
+//     let pos = newArr.indexOf("a");
+//     let pos2 = newArr.indexOf("z");
+// // just check
+//     console.log(pos);
+//     console.log(pos2);
+//
+//     letterArr1 = (newArr.slice(0, pos ));
+//     // console.log(letterArr1);
+//
+//     letterArr2 = (newArr.slice(pos, pos2 ));
+//     // console.log(letterArr2);
+//
+//
+//     letterArr3 = (newArr.slice(pos2) );
+//     // console.log(letterArr3);
+//
+//
+//     let containerArr = [];
+//     containerArr.push(letterArr1, letterArr2, letterArr3);
+//
+//     return containerArr;
+//
+// }
+//
+// function randomLetter(alphabet) {
+//     let result = (Math.floor(Math.random() * alphabet.length));
+//     randomLetter = (alphabet[result]);
+//
+// }
+// randomLetter(alphabet);
+// console.log(randomLetter);
+//
+//
+// addKeyboardLayout(alphabet);
+// console.log(addKeyboardLayout(alphabet));
+
+
+// array, null, object = object;
+
+
