@@ -14,17 +14,17 @@
       свойства age которых больше чем параметр age.
 */
 
-/*const guests = [
+const guests = [
     {name: 'Mango', age: 20, isActive: true},
     {name: 'Poly', age: 18, isActive: false},
     {name: 'Ajax', age: 30, isActive: true},
     {name: 'Chelsey', age: 45, isActive: false}
-];*/
+];
 
 //1 Task
 
 //1 and 2
-/*function getActiveGuests(guests) {
+function getActiveGuests(guests) {
     let result = guests.filter(function (el) {
     if(el.isActive === true) {
         return el;
@@ -32,9 +32,6 @@
 })
     return result;
 }
-
-*/
-
 //ternar
 //
 // function getActiveGuests(guests) {
@@ -45,7 +42,7 @@
 // })
 //
 // }
-// console.log(getActiveGuests(guests));
+ console.log(getActiveGuests(guests));
 
 //3 sub-task
 
