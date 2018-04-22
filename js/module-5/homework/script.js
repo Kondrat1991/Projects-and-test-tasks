@@ -14,35 +14,35 @@
       свойства age которых больше чем параметр age.
 */
 
-const guests = [
-    {name: 'Mango', age: 20, isActive: true},
-    {name: 'Poly', age: 18, isActive: false},
-    {name: 'Ajax', age: 30, isActive: true},
-    {name: 'Chelsey', age: 45, isActive: false}
-];
+// const guests = [
+//     {name: 'Mango', age: 20, isActive: true},
+//     {name: 'Poly', age: 18, isActive: false},
+//     {name: 'Ajax', age: 30, isActive: true},
+//     {name: 'Chelsey', age: 45, isActive: false}
+// ];
 
 //1 Task
 
 //1 and 2
-function getActiveGuests(guests) {
-    let result = guests.filter(function (el) {
-    if(el.isActive === true) {
-        return el;
-    }
-})
-    return result;
-}
-//ternar
+// function getActiveGuests(guests) {
+//     let result = guests.filter(function (el) {
+//     if(el.isActive === true) {
+//         return el;
+//     }
+// })
+//     return result;
+// }
+//ternary
 //
 // function getActiveGuests(guests) {
-//     return result = guests.filter(el => {
+//     return guests.filter(el => {
 //     return el.isActive === true; {
 //
 //     }
 // })
 //
 // }
- console.log(getActiveGuests(guests));
+//console.log(getActiveGuests(guests));
 
 //3 sub-task
 
@@ -56,7 +56,7 @@ function getActiveGuests(guests) {
 }*/
 
 
-//ternare
+//ternary
 
 
 /*function getGuestsOlderThan(guests, age) {
@@ -165,7 +165,7 @@ function getActiveGuests(guests) {
 // }
 //
 // console.log(getGuestById(order));
-//ternare
+//ternary
 //  total = Object.values(order).reduce((t, n) => t + n);
 // console.log(total);
 
@@ -182,7 +182,7 @@ function getActiveGuests(guests) {
   Используя метод reduce, посчитайте
   общую сумму стоимости всех продуктов заказа.
 */
-/*const products = {
+const products = {
     bread: 10,
     milk: 15,
     apples: 20,
@@ -200,7 +200,7 @@ const orderB = {
     bread: 1,
     milk: 2,
     cheese: 3
-};*/
+};
 
 // function getTotalPrice(products, order) {
 //     let sum = {};
@@ -212,7 +212,7 @@ const orderB = {
 //      return Object.values(sum).reduce((t, n) => t + n);
 // }
 
-//ternare
+//ternary
 
 // function getTotalPrice(products, order) {
 //     let sum = {};
@@ -224,9 +224,25 @@ const orderB = {
 //     return Object.values(sum).reduce((t, n) => t + n);
 // }
 
+//from Sascha
+function getTotalPrice(products, order) {
+    let sum = {};
+    Object.keys(products).map(key => {
+      if (order.hasOwnProperty(key)) {
+        return sum[key] = products[key] * order[key];
+
+      }
+    })
+    return Object.values(sum).reduce((t, n) => t + n);
+    //return Object.keys(order).map((item) => {
+        //return order[item] * products[item];
+    //}).reduce((acc, next) => {
+       // return acc + next;
+    //}, 0);
+}
 
 // Вызовы функции для проверки
-//console.log(getTotalPrice(products, orderA)); // 140
+console.log(getTotalPrice(products, orderA)); // 140
 //
 //console.log(getTotalPrice(products, orderB)); // 130
 //
