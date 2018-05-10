@@ -185,10 +185,10 @@ petya();*/
 
 // "user strict";
 
-// let checkWachek = ['Henry Every', 'Mick', 'Rotman', 'Keis', 'Den', 'Alex', 'Michael', 'Vova flip-flops', 'Katya', 'pvg', 'Danya', 'Elena MmMmM', 'Mr. Incredible'];
+let checkWachek = ['Henry Every', 'Mick', 'Rotman', 'Keis', 'Den', 'Alex', 'Michael', 'Vova flip-flops', 'Katya', 'pvg', 'Danya', 'Elena MmMmM', 'Mr. Incredible'];
 
-// let check = (checkWachek[(Math.floor(Math.random()*checkWachek.length))]);
-// alert(check);
+let check = (checkWachek[(Math.floor(Math.random()*checkWachek.length))]);
+alert(check);
 
 
 // function isPolindrom(polindrom) {

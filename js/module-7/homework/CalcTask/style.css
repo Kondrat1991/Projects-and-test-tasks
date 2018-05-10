@@ -1,0 +1,59 @@
+/*1) Створити калькулятор за допомогою конструктора*/
+/*2) Конструктор має мати такі методи:*/
+/*2.1) getValue - запитати 2 числа в користувача і зберегти їх в властивості обєкта*/
+/*2.2) sum - метод що додає 2 числа;*/
+/*2.3) minus - метод що віднімає 2 числа;*/
+/*2.4) mult -метод що перемножує 2 отриманих числа*/
+/*2.5) divide - метод ділить число а на b*/
+/*2.6) pow - метод що підносить а до степеня b*/
+/*3 ) створити в розмітці 6 кнопок кожна з яких буде запускати свій метод калькулятора*/
+/*4 ) Вивести на екран резльтат роботи кожного метода калькулятора після натискання відповідної кнопки (Наприклад при натисканні на створену кнопку + вивести на екран фразу "Сума = і результат робити метода sum")*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+.calculator, .sum, .minus, .mult, .divide, .pow, .get-Value {
+    margin: auto;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.calculator{
+    font-size: 60px;
+    color: #190cd1;
+}
+.et-Value {
+    background-color: rgb(189, 155, 155);
+}
+
+.sum {
+    background-color: rgb(228, 79, 79);
+}
+.minus{
+    background-color: rgb(63, 206, 206);/**/
+}
+.mult{
+    background-color: rgb(79, 228, 116);
+    text-align: center;
+}
+.divide{
+    background-color: rgb(228, 79, 196);
+}
+.pow{
+    background-color: rgb(213, 228, 79);
+}
+#sum, #minus, #mult, #divide, #pow {
+    font-size: 30px;
+    color: rgb(6, 90, 48);
+}
+
+
+

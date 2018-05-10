@@ -1,18 +1,16 @@
-/*
-    1. Используя метод filter, пройдите по массиву guests
-      и составьте массив только тех гостей, поле isActive
-      которых true.
-
-    2. Напишите функию getActiveGuests(guests), принимающую
-      один параметр guests - массив объектов гостей.
-      Функция должна возвращать массив объектов гостей,
-      значение поля isActive которых true.
-
-    3. Напишите функцию getGuestsOlderThan(guests, age), где
-      guests - массив объектов гостей, age - предел возраста
-      для сортировки. Функция возвращает массив объектов значение
-      свойства age которых больше чем параметр age.
-*/
+{  /* // 1. Используя метод filter, пройдите по массиву guests
+    //   и составьте массив только тех гостей, поле isActive
+    //   которых true.
+    //
+    // 2. Напишите функию getActiveGuests(guests), принимающую
+    //   один параметр guests - массив объектов гостей.
+    //   Функция должна возвращать массив объектов гостей,
+    //   значение поля isActive которых true.
+    //
+    // 3. Напишите функцию getGuestsOlderThan(guests, age), где
+    //   guests - массив объектов гостей, age - предел возраста
+    //   для сортировки. Функция возвращает массив объектов значение
+    //   свойства age которых больше чем параметр age.*/
 
 // const guests = [
 //     {name: 'Mango', age: 20, isActive: true},
@@ -46,33 +44,33 @@
 
 //3 sub-task
 
-/*function getGuestsOlderThan(guests, age) {
-    let newArr = guests.filter(function (el) {
-        if(el.age > age) {
-            return el;
-        }
-    })
-    return newArr;
-}*/
+// function getGuestsOlderThan(guests, age) {
+//     let newArr = guests.filter(function (el) {
+//         if(el.age > age) {
+//             return el;
+//         }
+//     })
+//     return newArr;
+// }
+//
+//
+// //ternary
+//
+//
+// function getGuestsOlderThan(guests, age) {
+//     return newArr = guests.filter(el => {
+//         return el.age > age; {
+//
+//         }
+//     })
+//
+// }
 
 
-//ternary
 
 
-/*function getGuestsOlderThan(guests, age) {
-    return newArr = guests.filter(el => {
-        return el.age > age; {
-
-        }
-    })
-
-}*/
-
-
-
-
-//  Вызовы функции для проверки
-// console.log(getActiveGuests(guests) ); // массив из 2-х объектов Mango и Poly
+// Вызовы функции для проверки
+//console.log(getActiveGuests(guests) ); // массив из 2-х объектов Mango и Poly
 //
 // console.log(
 //     getGuestsOlderThan(guests, 25)
@@ -88,6 +86,7 @@
 
 
 
+    //Task 2
 /*
     1. Используя метод find, пройдите по массиву guests
       и найдите гостя с id равным 3.
@@ -147,24 +146,29 @@
   всех значений свойств объекта order.
 */
 
-// const order = {
-//     bread: 10,
-//     apples: 25,
-//     chicken: 60,
-//     milk: 15,
-//     cheese: 40
-// };
-// function getGuestById(sum) {
-//     let total = Object.values(sum).reduce(function (that, next) {
-//         if (typeof that === 'number') {
-//             return that + next;
-//         }
-//         return 0;
-//     })
-//     return total;
-// }
-//
-// console.log(getGuestById(order));
+const order = {
+    bread: 10,
+    apples: 25,
+    chicken: 60,
+    milk: 15,
+    cheese: 40,
+    butter: 'much',
+    eggs: 5
+};
+
+//reworked alt previous by next
+/*function getGuestById(sum) {
+    let total = Object.values(sum).reduce(function (that, next) {
+        if (typeof next === 'number') {
+            return that + next;
+        }
+        return that;
+    })
+    return total;
+}
+    console.log(getGuestById(order));*/
+
+
 //ternary
 //  total = Object.values(order).reduce((t, n) => t + n);
 // console.log(total);
@@ -182,25 +186,25 @@
   Используя метод reduce, посчитайте
   общую сумму стоимости всех продуктов заказа.
 */
-const products = {
-    bread: 10,
-    milk: 15,
-    apples: 20,
-    cheese: 30,
-    chicken: 40,
-};
-
-const orderA = {
-    bread: 2,
-    apples: 4,
-    chicken: 1,
-};
-
-const orderB = {
-    bread: 1,
-    milk: 2,
-    cheese: 3
-};
+// const products = {
+//     bread: 10,
+//     milk: 15,
+//     apples: 20,
+//     cheese: 30,
+//     chicken: 40,
+// };
+//
+// const orderA = {
+//     bread: 2,
+//     apples: 4,
+//     chicken: 1,
+// };
+//
+// const orderB = {
+//     bread: 1,
+//     milk: 2,
+//     cheese: 3
+// };
 
 // function getTotalPrice(products, order) {
 //     let sum = {};
@@ -211,6 +215,16 @@ const orderB = {
 //     })
 //      return Object.values(sum).reduce((t, n) => t + n);
 // }
+
+
+    //From Denis
+
+    /*const getTotalPrice = (products, order) => {
+        let sum = 0;
+        for (let item in order){
+            sum += order[item]*products[item];
+        }*/
+
 
 //ternary
 
@@ -225,15 +239,15 @@ const orderB = {
 // }
 
 //from Sascha
-function getTotalPrice(products, order) {
-    let sum = {};
-    Object.keys(products).map(key => {
-      if (order.hasOwnProperty(key)) {
-        return sum[key] = products[key] * order[key];
-
-      }
-    })
-    return Object.values(sum).reduce((t, n) => t + n);
+// function getTotalPrice(products, order) {
+//     let sum = {};
+//     Object.keys(products).map(key => {
+//       if (order.hasOwnProperty(key)) {
+//         return sum[key] = products[key] * order[key];
+//
+//       }
+//     })
+//     return Object.values(sum).reduce((t, n) => t + n);
     //return Object.keys(order).map((item) => {
         //return order[item] * products[item];
     //}).reduce((acc, next) => {
@@ -242,7 +256,7 @@ function getTotalPrice(products, order) {
 }
 
 // Вызовы функции для проверки
-console.log(getTotalPrice(products, orderA)); // 140
+//console.log(getTotalPrice(products, orderA)); // 140
 //
 //console.log(getTotalPrice(products, orderB)); // 130
 //
@@ -301,11 +315,28 @@ const guestsB = [
 // true
 
 
+                                                                            // REWORKED IN CLASS
 
 
+//assign an object from two other objects
+
+/*const first = {name: 'Tony'};
+const last = {lastName: 'Stark'};
+const person = Object.assign(first, last);// add
+//console.log(person);
 
 
+//spread operator
 
+let user2 = {...first, ...last} ;
+console.log('Копія обєктів  first and last', user2);*/
+
+//For array
+
+/*let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+let newArr = [...arr1, ...arr2];
+console.log('new array', newArr);*/
 
 
 

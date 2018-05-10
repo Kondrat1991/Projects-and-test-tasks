@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<!--контейнер в который вставляем шаблон-->
+<form class="form js-form">
+    <section>
+        <h2>Screen size</h2>
+        <ul class='size-box'>
+        </ul>
+    </section>
+    <section>
+        <h2>Color</h2>
+        <ul class='color-box'>
+
+        </ul>
+    </section>
+    <section>
+        <h2>Release date</h2>
+        <ul class='release_date'>
+
+        </ul>
+    </section>
+    <button type="submit">Filter</button>
+    <button type="reset">Clear</button>
+</form>
+
+<script type='hbs/template' id = 'size'>
+
+    <li><label><input type="checkbox" name={{#filter}} value={{this}}>{{this}}"</label></li>
+
+</script>
+<!--<script type='hbs/template' id = 'color'>-->
+    <!--<li><label><input type="checkbox" name="color" value="white"> white</label></li>-->
+    <!--<li><label><input type="checkbox" name="color" value="gray"> gray</label></li>-->
+    <!--<li><label><input type="checkbox" name="color" value="black"> black</label></li>-->
+<!--</script>-->
+<!--<script type='hbs/template' id = 'release_date'>-->
+    <!--<li><label><input type="checkbox" name="release_date" value="2015"> 2015</label></li>-->
+    <!--<li><label><input type="checkbox" name="release_date" value="2016"> 2016</label></li>-->
+    <!--<li><label><input type="checkbox" name="release_date" value="2017"> 2017</label></li></script>-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>

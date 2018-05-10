@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    margin: auto;
+    font-size: 20px;
+    /* padding: 20px; */
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #808080;
+    /* height: 30px;
+    min-width: 30px;  */
+}
+.img-cheese {
+    height: 100px;
+    min-width: 100px;
+}

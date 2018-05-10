@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- <div class="container"> </div>
+  <button class='apple'>choose apple</button>
+  <button class='all-phones'>all phones</button> -->
+<form class="form js-form">
+    <section>
+        <h2>Screen size</h2>
+        <ul class='size-box'>
+        </ul>
+    </section>
+    <section>
+        <h2>Color</h2>
+        <ul class='color-box'>
+
+        </ul>
+    </section>
+    <section>
+        <h2>Release date</h2>
+        <ul class='release_date'>
+
+        </ul>
+    </section>
+    <button type="submit">Filter</button>
+    <button type="reset">Clear</button>
+</form>
+<script type='hbs/template' id = 'size'>
+    <li><label><input type="checkbox" name={{@size}} value={{this}}>{{this}}</label></li>
+
+</script>
+<script type='hbs/template' id = 'color'>
+    <li><label><input type="checkbox" name={{@key}} value={{this}}> {{this}}</label></li>
+</script>
+<script type='hbs/template' id = 'release_date'>
+    <li><label><input type="checkbox" name={{@key}} value={{this}}> {{this}}</label></li>
+</script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js">
+
+</script>
+
+<script src = "script.js">
+
+</script>
+</body>
+</html>

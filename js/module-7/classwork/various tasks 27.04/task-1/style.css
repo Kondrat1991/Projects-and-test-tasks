@@ -1,0 +1,26 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.image-gallery{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.preview {
+    display: flex;
+    justify-content: space-between;
+}
+.preview li {
+    flex-basis: 8%;
+}
+.active {
+    border-radius: 50%;
+}
+
+

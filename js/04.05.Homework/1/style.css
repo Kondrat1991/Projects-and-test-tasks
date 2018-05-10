@@ -1,0 +1,147 @@
+/*email*/
+/*логін*/
+/*імя*/
+/*країну*/
+/*місто*/
+/*дату народження*/
+/*Опис про себе*/
+/*силка на аватар*/
+
+
+.app-ctrls {
+    display: inline-flex;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+.app-ctrls__select {
+    padding: 0.5rem;
+    font-size: inherit;
+}
+
+.app-ctrls__btn {
+    padding: 0.75rem 1rem;
+    font-size: inherit;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background-color: #0E79B2;
+    color: #FBFEF9;
+}
+
+.app-ctrls__btn:hover {
+    background-color: #E88D67;
+}
+
+body {
+    background-color: #3498db;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*
+
+.divider {
+    height: 1px;
+    width: 2%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #e0e0e0
+}
+*/
+#card {
+    background: #fff;
+    width: 32%;
+    margin: 2em auto;
+    padding-bottom: 1em;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.24);
+}
+
+#userImage {
+    position: relative;
+    top: 1em;
+    display: block;
+    text-align: center;
+    margin: 1em auto;
+    max-width: 100px;
+    border-radius: 100%;
+}
+#badge {
+    background: #2ecc71;
+    color: #fff;
+    margin: auto;
+    padding: 5px 4px;
+    position: relative;
+    top: -20px;
+    left: 56%;
+    font-size: 18px;
+    border-radius: 100px;
+}
+
+#playerName {
+    position: relative;
+    top: -15px;
+    text-align: center;
+    font-size: 20px;
+    color: #555;
+    font-weight: bolder;
+}
+
+#states {
+    width: 85%;
+    margin: 1em auto;
+    font-weight: 300;
+}
+
+ul {
+    padding-bottom: 1em;
+    list-style: none;
+}
+
+ul li {
+    color: #999;
+    margin-bottom: 8px;
+    padding: 1px 0px 8px 0px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+#values li:hover {
+    color: #555;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#info {
+    position: relative;
+    float: left;
+    margin-left: 0;
+    text-align: left;
+}
+
+#values {
+    position: relative;
+    text-align: right;
+}
+
+#contactBtn {
+    position: relative;
+    background: #2ecc71;
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: .5em;
+    width: 150px;
+    border-radius: 25px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+#contactBtn:hover {
+    background: #27ae60;
+    color: #fff;
+}
+
+
+

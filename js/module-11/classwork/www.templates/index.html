@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+    <!-- <div id="menu-container"></div>
+
+    <script type="hbs/template" id="menu">
+        <div class="menu">
+        <h3 class="menu-title">{{title}}</h3>
+        <ul class="menu-list">
+        {{#each items}}
+        <li class="menu-item">{{this}}</li>
+        {{/each}}
+        </ul>
+        </div>
+    </script> -->
+
+    <!-- <div class="gallery">
+        <h2 class="gallery-title">Gallery</h2>
+        <div class="gallery-content"></div>
+    </div>
+
+    <script type="hbs/template" id="gallscript">
+        {{#each images}}
+        <div class="gallery-item">
+            <img class="gallery-img" src="{{this.img}}" alt="{{this.text}}">
+            <p class="gallery-text">{{this.text}}</p>
+        </div>
+        {{/each}}
+    </script> -->
+    <!-- <div class="list-container"></div>
+
+    <script type="hbs/template" id="listscript">
+        <ul class="list">
+            <li class="item">
+                <p class="name">{{name}}</p>
+                <span class="count">{{count}}</span>
+            </li>
+        </ul>
+    </script> -->
+
+    <!-- <script type="hbs/template" id="listscript">
+        <ul class="list">
+            {{#each itemsArr}}
+            <li class="item">
+                <p class="name">{{this.name}}</p>
+                <span class="count">{{this.count}}</span>
+            </li>
+            {{/each}}
+        </ul>
+    </script> -->
+    <div class="buttons">
+        <button class="all">All phones</button>
+        <button class="iphone">iPphones</button>
+    </div>
+    <div class="phones-container">
+
+    </div>
+
+    <script type="hbs/template" id="phonesscript">
+    <div class="module-card-bottom">
+        <img src="{{image}}" alt="" class="module-card-img" />
+        <div>
+            <p>Name: {{name}}</p>
+            <p>Price: {{price}}</p>
+            <p>Description: {{description}}</p>
+            <div class="hide">
+                <p>ID: {{id}}</p>
+                <p>CPU: {{cpu}}</p>
+                <p>Camera: {{camera}}</p>
+                <p>Size: {{size}}</p>
+                <p>Weight: {{weight}}</p>
+                <p>Display: {{display}}</p>
+                <p>Battery: {{battery}}</p>
+                <p>Memory: {{memory}}</p>
+            </div>
+            <button class="module-card-button">See More</button>
+            
+        </div>
+    </div>
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
