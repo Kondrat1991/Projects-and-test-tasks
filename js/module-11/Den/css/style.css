@@ -1,0 +1,56 @@
+*{
+    transition: 1s;
+    box-sizing: border-box;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+.form {
+    flex-basis: 19%;
+}
+
+.module-card-bottom {
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    padding: 0 5px;
+}
+
+.module-card-img {
+    margin: 20px 0;
+    align-self: center;
+    width: 100%;
+    height: auto;
+}
+
+.module-card-button {
+    background: seagreen;
+    color: white;
+    border: none;
+    margin-top: auto;
+    padding: 10px;
+}
+
+.body__card {
+    flex-basis: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.price {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 900;
+    font-size: 25px;
+}
+.name {
+    text-align: right;
+}
+.active {
+    transition: 1ms;
+    color: #fff;
+    font-size: 0;
+    height: 0;
+}

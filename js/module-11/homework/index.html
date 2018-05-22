@@ -10,10 +10,11 @@
 </head>
 <body>
 
-<!-- <div class="container"> </div>
-  <button class='apple'>choose apple</button>
-  <button class='all-phones'>all phones</button> -->
-<form class="form js-form">
+<div id="container">
+
+</div>
+
+<form class="form js-form" id="form">
     <section>
         <h2>Screen size</h2>
         <ul class='size-box'>
@@ -31,18 +32,37 @@
 
         </ul>
     </section>
-    <button type="submit">Filter</button>
-    <button type="reset">Clear</button>
+    <button id="filter">Filter</button>
+    <button type="reset" id="reset">Clear</button>
 </form>
-<script type='hbs/template' id = 'size'>
-    <li><label><input type="checkbox" name={{@size}} value={{this}}>{{this}}</label></li>
+<script type='hbs/template' id='size'>
+    <li><label><input type="checkbox" name="size" value={{this}}>{{this}}</label></li>
 
 </script>
-<script type='hbs/template' id = 'color'>
-    <li><label><input type="checkbox" name={{@key}} value={{this}}> {{this}}</label></li>
+<script type='hbs/template' id='color'>
+    <li><label><input type="checkbox" name="color" value={{this}}> {{this}}</label></li>
 </script>
-<script type='hbs/template' id = 'release_date'>
-    <li><label><input type="checkbox" name={{@key}} value={{this}}> {{this}}</label></li>
+<script type='hbs/template' id='release_date'>
+    <li><label><input type="checkbox" name="releaseDate" value={{this}}> {{this}}</label></li>
+</script>
+
+
+<script type="hbs/template" id="store">
+
+    <div class="module-card-bottom">
+        <img src="{{img}}" alt="cheesecake" class="module-card-img"/>
+
+        <div class="visible">
+            <p>{{descr}}</p>
+            <p>{{name}}</p>
+            <p>{{price}}</p>
+            <p>{{color}}</p>
+            <p>{{releaseDate}}</p>
+        </div>
+
+    </div>
+    </div>
+
 </script>
 
 
@@ -50,7 +70,7 @@
 
 </script>
 
-<script src = "script.js">
+<script src="script.js">
 
 </script>
 </body>

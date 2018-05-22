@@ -8,16 +8,14 @@ body {
 }
 
 
-
-.size-box {
+#container {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-
-
-
-
-
+/*.size-box {*/
+    /*display: flex;*/
+    /*justify-content:space-between;*/
+/*}*/
 
     .gallery {
     max-width: 900px;
