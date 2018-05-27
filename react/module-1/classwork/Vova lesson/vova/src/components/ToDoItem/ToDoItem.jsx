@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import FlipMove from 'react-flip-move';
-
-//onClick={() => deleteItems(el.id)}
+//onClick={() => deleteItems(el.id)};
 
 const ToDoItem = ({items, deleteItems}) => {
     const taskArr = items.map(el => <li key={el.id} data-liid={el.id}> {el.text}</li>);
