@@ -2,15 +2,14 @@ import React, {Fragment} from 'react';
 //import Post from './components/post';
 //import PostList from './components/postsList'
 import Timer from './components/timer';
+import PostsList from "./components/postsList";
 
 const App = () => (
     <Fragment>
 
 
 
-        <Timer/>
-        <Timer time ={1000} step = {1} autoStart/>
-    <Timer time="0" reverse={false} autoStart/>
+        <PostsList/>
     </Fragment>
 )
 export default App;

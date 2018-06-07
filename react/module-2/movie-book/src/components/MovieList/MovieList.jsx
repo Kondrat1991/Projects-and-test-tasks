@@ -39,7 +39,7 @@ export default class MovieList extends Component {
     return (
       <div>
         <ul>
-          {this.state.movieData.map((obj)=> <MovieCard key={obj.id} title={obj.title} text={obj.overview} rating={obj.vote_average} poster={obj.poster_path}  />) }
+          {this.state.movieData.map((obj)=> <MovieCard key={obj.id} title={obj.title} text={obj.overview} rating={obj.vote_average} poster={obj.poster.path}  />) }
         </ul>
       </div>
     )
