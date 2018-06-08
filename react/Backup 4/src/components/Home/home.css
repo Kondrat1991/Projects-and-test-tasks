@@ -1,0 +1,15 @@
+/*.main {*/
+    /*display: flex;*/
+/*}*/
+
+.side-bar {
+    flex-basis: 15%;
+}
+
+.gallery {
+    flex-basis: 85%
+}
+
+.wrapper-container {
+    display: flex;
+}

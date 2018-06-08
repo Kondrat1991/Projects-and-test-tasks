@@ -1,0 +1,22 @@
+* {
+    list-style: none;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.note-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.note-form {
+    display: block;
+}
+.note-item {
+    display: block;
+}
+
