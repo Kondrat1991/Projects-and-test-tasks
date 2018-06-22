@@ -1,3 +1,18 @@
+function minTemp(){
+    let arr = Array.from(arguments);
+    let module = arr.map(el => Math.abs(el));
+    return  Math.min(...module);
+}
+
+// minTemp(1,-2,-8,4,5);
+
+
+console.log(minTemp(1,-2,-8, 4, 5));
+
+
+
+
+
 function paintGallery() {
 
     let value = document.querySelector('.cars').value;

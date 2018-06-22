@@ -11,4 +11,11 @@
 // }
 //
 // sum(3,5,7,8,3,1);
+// stack size exceeded
+function foo() {
+ return foo()
+}
+foo();
+
+
 

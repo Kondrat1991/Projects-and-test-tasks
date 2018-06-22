@@ -11,7 +11,7 @@ const box = document.querySelector('#container');
 ReactDOM.render(
     <div>
         <ToDoList/>
-    </div>,box
+    </div>, box
 
 );
 
