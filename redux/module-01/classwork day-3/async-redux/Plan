@@ -1,0 +1,21 @@
+Middlewares in create store
+npm i --save redux-logger
+many with coma
+Redux devTools
+ window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+
+async actions
+npm install --save redux-thunk
+add asyncIncrement
+thunk
+
+
+$ npm install --save axios
+
+api settings
+export axiox function from api
+import getGallery to fetch actions
+create fetchAction and async fetchData
+create fetch reducer
+add to index reducers
+add button in Counter and add onClick fetch

@@ -1,0 +1,69 @@
+.bg-dark-purple {background: #1f253d;}
+.bg-main-purple {background: #394264;}
+.bg-purple-hover {background: #50597b;}
+.bg-teal {background: #11A8AB;}
+
+.white {color: #ffffff;}
+.dark-purple {color: #1f253d;}
+.main-purple {color: #394264;}
+.purple-hover {color: #50597b;}
+.purple-border {color: #50597b;}
+.light-purple {color: #9099b7;}
+.teal {background: #11A8AB;}
+
+.border-teal {border-top-color: #11A8AB;}
+body {
+    background: #1f253d;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.user-card {
+    max-width: 300px;
+    width: 35%;
+    border-radius: 5px;
+    text-align: center;
+    height: 353px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.user-looking {
+    border-radius: 50%;
+    border: 5px solid #50597b;
+    margin-top: 30px;
+}
+.user-name {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+.user-info {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.looking-icons {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+.looking-icons li {
+    color: #9099b7;
+    font-size: 1.75em;
+    width: 80px;
+    line-height: 50px;
+    padding: 0px 0;
+    float: left;
+    border-right: 2px solid #50597b;
+}
+.looking-icons li:last-child {
+    border-right: 0px;
+    padding-right: 3px;
+}
+.looking-icons span {
+    font-size: .5em;
+    margin-left: .75em;
+    color: white;
+}
+
+.star {	border-top: 4px solid #11A8AB;}
+.location {	border-top: 4px solid #fcb150;}
+.fb {	border-top: 4px solid #e64c65;}

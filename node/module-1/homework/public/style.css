@@ -1,0 +1,272 @@
+@import "font.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Roboto Slab', serif;*/
+.wrapper {
+    background: white;
+    min-height: 42.1875rem;
+
+}
+
+
+
+.container {
+    max-width: 60rem;
+    margin: auto;
+}
+
+/*.container-one {*/
+    /*max-width: 960px;*/
+     /*margin-top: 125px;*/
+/*}*/
+
+.header {
+    padding:2.5rem 2rem 0;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+}
+
+.header-menu {
+    display: flex;
+    /*width:80%;*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav {
+    flex-basis: 28rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    /*width: 100%;*/
+}
+
+.menu-item {
+    display: flex;
+}
+.logo {
+    font-family: 'Wisdom Script', sans-serif;
+    color: #fed136;
+    flex-basis: 25%;
+    font-size: 1.625rem;
+    /*line-height: 1.625rem ;*/
+    text-align: left;
+}
+
+.menu-link {
+    font-family: 'Montserrat Bold', sans-serif;
+    color:  #222222;
+    font-size: 0.875rem;
+    /*line-height: 0.875rem;*/
+    font-weight: 700;
+    line-height: 2.5625rem;
+    text-align: center;
+    text-transform: uppercase;
+    /*flex-basis: 5%;*/
+    /*letter-spacing: 0.125rem;*/
+
+}
+
+.menu-link:hover {
+    color:  #fed136;
+}
+
+.menu-link:hover {
+    color:  #fed136;
+    transition: linear 200ms;
+}
+
+/*for service-info*/
+.service-info {
+    margin:11.875rem 0 0;
+    text-align: center;
+}
+
+.service-title {
+    margin: auto;
+    font-family: 'Roboto Slab', serif;
+    color:  #222222;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.service-info {
+    font-family: 'Montserrat', sans-serif;
+    color:  #777777;
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.service-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto 0;
+    max-width: 60rem; ;
+
+}
+
+.service-block {
+    flex-basis: 33%;
+    position: relative;
+}
+
+.block-info {
+    font-family: 'Montserrat', sans-serif;
+    color:  #222222;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 4.6875rem;
+    text-align: center;
+}
+
+.block-text {
+
+    margin: auto;
+    font-family:'RobotoSlab', sans-serif;
+    min-height: 5rem;
+    color:  #777777;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+
+.block-icon {
+    display: block;
+    margin: auto;
+    padding: 0.9375rem;
+    border:0.0625rem solid #fed136;
+    border-radius: 100%;
+}
+
+
+
+.wrapper-contact {
+    background: black url("../img/Map-img1.jpg") no-repeat right 7.125rem ;
+    min-height: 42.1875rem;
+    padding: 7rem 0 6.625rem;
+}
+.contact-info {
+
+    max-width: 60rem;
+    margin: auto auto 4.6875rem;
+    /*padding-top:6.875rem;*/
+}
+
+.contact-us {
+    margin: auto ;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.contact-text {
+    margin-top: 1.6875rem;
+    text-align: center;
+    font-family:"droid-serif", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color:  #777777;
+    font-size:1rem;
+}
+
+
+.form {
+    margin: auto;
+}
+
+.form-div {
+    display: flex;
+    justify-content: space-around;
+    /*align-items:space-around;*/
+
+}
+
+
+.thin-section {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+
+}
+
+
+.thinform {
+    display: block;
+    height:3.125rem;
+    padding: 0.625rem;
+    font-family: 'Montserrat', sans-serif;
+    color:  #bbbbbb;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-align: left;
+    flex-basis: 95%;
+}
+
+.text-area {
+    font-family: 'Montserrat', sans-serif;
+    color:  #bbbbbb;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-align: left;
+    padding:0.625rem;
+    height: 13.125rem;
+    flex-basis: 55%;
+
+}
+
+.btn {
+    display: block;
+    margin: 1.5625rem auto 0;
+    border-radius: 0.1875rem;
+    background-color:  #fed136;
+    width: 15rem;
+    height: 4.125rem;
+    font-family: 'Montserrat', sans-serif;
+    color:  #ffffff;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+
+input:valid {
+    outline: 0.125rem solid green;
+}
+
+input:invalid {
+    outline: 0.125rem solid red;
+}
+
+
+
+
+
+
+
