@@ -1,0 +1,22 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+
+}
+
+.wrapper {
+    text-align: center;
+    padding: 50px;
+}
+
+.Thank {
+
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    color: orangered;
+}
+

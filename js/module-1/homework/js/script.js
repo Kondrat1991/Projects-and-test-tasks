@@ -1,4 +1,23 @@
 
+
+/*function Dog(name) {
+    this.name = name;
+}
+let dog = new Dog('Bruno');
+dog.sayHello = function() {
+    console.log('Hello, I am' + this.name);
+};
+dog.sayHello();*/
+
+/*
+'use strict'
+var x =y= 3;
+console.log(y);
+*/
+
+
+/*
+
 const a = 'qwertyuiop[]';
 const b = 'asdfghjkl;';
 const c = 'zxcvbnm,./';
@@ -59,3 +78,6 @@ console.log(`first string ${a}, second string ${b}, three string ${c}, four stri
 
 
 
+
+
+*/
