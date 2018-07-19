@@ -1,0 +1,121 @@
+.form-div {
+    justify-content: center;
+    border-radius: 1%;
+}
+
+.form-select {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    border: none;
+    outline: none;
+    padding: 1px;
+    color: #fff;
+    background-color: #000;
+}
+
+.form-option {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+}
+
+.form-input--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.getValue {
+    position: absolute;
+    right: 10%;
+    color: #547ee2;
+    border: none;
+    outline: none;
+    padding: 2px;
+}
+
+.form-clear {
+    position: absolute;
+    left: 55%;
+    top: 10%;
+    border: none;
+    outline: none;
+    background: transparent;
+    background-image: url("/cancel.svg");
+    background-position: center;
+    background-size: contain;
+    height: 15px;
+    width: 15px;
+    align-self: center;
+    color: #fff;
+}
+
+.form-search {
+    position: absolute;
+    left: 45%;
+    top: 20%;
+    border: none;
+    outline: none;
+    background: transparent;
+    background-image: url("/search.svg");
+    background-position: center;
+    background-size: contain;
+    height: 15px;
+    width: 15px;
+    align-self: center;
+    color: #fff;
+}
+
+.form-search:focus .form-input {
+    background-color: #fff;
+}
+
+select:-webkit-autofill {
+    background-color: #fff;
+}
+
+option {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: italic;
+    border: none;
+    outline: none;
+}
+
+.form-input {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    border-radius: 5%;
+    padding: 2px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #000;
+}
+
+@media (min-width: 768px) {
+    .form-select {
+        font-size: 14px;
+    }
+
+    .form-input {
+        font-size: 14px;
+    }
+
+    .form-option {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .form-select {
+        font-size: 18px;
+    }
+
+    .form-input {
+        font-size: 18px;
+    }
+
+    .form-option {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,12 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    overflow-x: hidden;
+}

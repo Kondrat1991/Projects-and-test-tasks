@@ -1,0 +1,113 @@
+button {
+
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+.wrap-basket {
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px 7px;
+    width: 300px;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 100;
+    right: -700px;
+    top: 55px;
+    transition: 1s;
+    -webkit-box-shadow: 10px 10px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 6px 0px rgba(0, 0, 0, 0.75);;
+}
+
+.basket-title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 6px;
+}
+
+.wrap-ul-scroll {
+    overflow-y: scroll;
+}
+
+.wrap-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.wrap-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 0 15px;
+}
+
+.active {
+    right: 0;
+    transition: 1s;
+}
+
+.button-buy {
+    width: 70px;
+    line-height: 17px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.button-buy:hover {
+    color: #FF4500;
+    border: 1px solid #FF4500;
+}
+
+.button-del {
+    width: 70px;
+    line-height: 17px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    font-size: 11px;
+}
+
+.button-del:hover {
+    color: #FF4500;
+    border: 1px solid #FF4500;
+}
+
+.amount-title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+.amount-value {
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.wrap-amount {
+    text-align: left;
+    margin: 20px 0 20px 0;
+}
+
+.amount-title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 6px;
+    font-family: Roboto, sans-serif;
+}
+
+.amount-value {
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    font-size: 14px;
+}

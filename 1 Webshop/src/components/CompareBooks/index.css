@@ -1,0 +1,63 @@
+
+.table-container {
+    width: 100%;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.table {
+    box-shadow: 0px 0px 5px 1px rgba(168, 168, 168, 1);
+    padding: 10px;
+}
+
+.container-compare {
+    display: flex;
+}
+
+.tbody-text {
+    text-align: left;
+}
+
+.th-empty {
+    width: 105px;
+}
+
+.tr-container {
+    display: flex;
+}
+
+.th-name {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 11px;
+    width: 105px;
+    padding: 10px;
+}
+
+.td-container--price {
+    color: #ff5722;
+}
+
+.td-container {
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    font-size: 9px;
+    width: 92px;
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+    .table {
+        padding: 48px 58px;
+    }
+
+    .table-container {
+        padding: 18px 20px;
+    }
+}
+@media (min-width: 1200px) {
+
+    .table-container {
+        padding: 18px 65px;
+    }
+}

@@ -1,0 +1,76 @@
+.wrap-li {
+    border-bottom: 1px solid #d1d3d4;
+    margin: 5px;
+    list-style: none;
+    padding: 5px;
+    flex-basis: 30%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+
+}
+
+.wrap-inform {
+    flex-basis: 55%;
+    flex-direction: column;
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrap-counter {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.button-del_card {
+    float: right;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding: 1px 10px;
+    font-size: 11px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.button-del_card:hover {
+    color: #FF4500;
+    border: 1px solid #FF4500;
+}
+
+.calc {
+    background-color: #ffffff;
+    border: 0px;
+    color: #FF4500;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.calc:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.wrap-poster {
+    width: 105px;
+}
+
+.poster {
+    width: 100%;
+    height: auto;
+}
+
+.text-title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.text-value {
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    font-size: 9px;
+}
