@@ -18,5 +18,3 @@ export default function configureStore(persistedState = {}) {
         persistedState, enchancer
     );
 }
-
-

@@ -2,7 +2,7 @@
     "name": "webshop",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://Kondrat1991.github.io/1_WebShop/build/",
+    "homepage": "https://Kondrat1991.github.io/Projects-and-test-tasks/1_WebShop/build/",
     "dependencies": {
         "browser-router": "^0.2.0",
         "gh-pages": "^1.2.0",

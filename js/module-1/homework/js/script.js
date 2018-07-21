@@ -1,3 +1,9 @@
+
+
+
+
+
+
 // function greet(person) {
 //     if (person == { name: 'amy' }) {
 //         return 'hey amy'
@@ -78,7 +84,7 @@
 
 // how to use reduce;
 
-let newArr = [0, 1, 2, 3, 4];
+/*let newArr = [0, 1, 2, 3, 4];
 
 let result1 = newArr.reduce(function(previousValue, currentValue, index, array) {
     return previousValue + currentValue;
@@ -90,7 +96,7 @@ let result2 = newArr.reduce(function (prev, current, index, array) {
     return prev + current;
 });
 
-console.log(result2);
+console.log(result2);*/
 
 
 //
