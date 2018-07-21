@@ -1,0 +1,46 @@
+.budget-title {
+    font-size: 21px;
+    color: #303f9f;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.budget-form{
+    width: 330px;
+    margin-bottom:35px;
+}
+
+
+
+
+
+.budget-select {
+    width: 100%;
+
+}
+
+.budget-select option {
+   color: #000000;
+}
+
+.statistic__select {
+    border: 0;
+    border-bottom: 1px solid #cecece;
+    font-size: .625rem;
+    color: #cecece;
+    margin-bottom: 1rem;
+}
+
+.input-budget::placeholder {
+    color: #cecece;
+}
+
+.input-budget {
+    width: 100%;
+    color: #000;
+}
+@media (min-width: 768px) {
+    .statistic__select {
+        font-size: 1rem;
+    }
+}
