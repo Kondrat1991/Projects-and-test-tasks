@@ -1,0 +1,23 @@
+.header {
+
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.header__link {
+    color: #4d4d4d;
+    font-family: var(--sans);
+    font-size: 24px;
+}
+
+.header__link:hover {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #00ccff;
+    transition: linear 200ms;
+}
+
