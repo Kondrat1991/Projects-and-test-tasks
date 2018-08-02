@@ -34,16 +34,15 @@
 
 
 .about__title {
-    padding-bottom: 10px;
-    border-bottom: 3px solid #00ccff;
+
     width: 240px;
     color: #0bceff;
     font-family: var(--sans);
     font-size: 24px;
-    margin-bottom: 60px;
 }
 
 .about__text {
+    margin-top: 60px;
     font-family: var(--roboto);
     font-style: normal;
     font-weight: normal;
@@ -52,7 +51,11 @@
     color: #555555;
 }
 
-
+.about__title:hover {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #00ccff;
+    transition: linear 200ms;
+}
 
 .about__span {
     display: block;
