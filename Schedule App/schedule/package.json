@@ -1,5 +1,6 @@
 {
   "name": "schedule",
+  "homepage": "https://kondrat1991.github.io/moneyTracker/build/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
