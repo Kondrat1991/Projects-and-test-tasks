@@ -93,9 +93,9 @@ Object.create(null, {});*/
 
 
 /*for(var i = 0; i < 10; i++) {
-setTimeout(function () {
-    console.log(i);
-}, i*1000)
+    setTimeout(function () {
+        console.log(i);
+    }, i*1000)
 }*/
 
 
@@ -108,13 +108,20 @@ setTimeout(function () {
     }, i*1000)
 }*/
 
-for (var i = 0; i < 10; i++) {
+
+
+//correct
+/*for (var i = 0; i < 10; i++) {
     setTimeout((function (i) {
         return function () {
             console.log(i);
         }
     }) (i));
-}
+}*/
+
+
+
+
 
 /*var o = {
     fn: function () {
@@ -227,9 +234,49 @@ console.log(david.getName());
 
 console.log(david);*/
 
+/*
 function B() {
     console.log(this); // 1
 }
 
 B();
-new B();
+new B();*/
+/*
+const a = [1,2,0,-11,-1, "11", "22"];
+
+function f (a){
+    return newArr = a.filter(value  =>  value > 0 &&typeof value  === "number");
+
+
+}
+
+console.log(f(a));*/
+
+/*const b = [1,2,3];
+let c = [...b];
+console.log(c);
+
+c.reverse();
+console.log(c);
+
+let d = [...b,...c];
+console.log(d);*/
+
+/*
+const array = [1,2,[2,3,[12,[2,[22,[1,[22]]]]]],[21,[22]]];
+
+const flatten = (array) => array.reduce((flat, toFlatten) =>  flat.concat(Array.isArray(toFlatten) ? flatten(toFlatten) : toFlatten), []);
+
+console.log(flatten(array));*/
+
+/*
+let foo = [];
+foo.push(1);
+foo.push(2);
+
+console.log(foo.length);
+ let res = "i'm a lasagna hog".split("").reverse().join("");
+
+console.log(res);
+
+console.log((window.foo || (window.foo = "bar")));*/

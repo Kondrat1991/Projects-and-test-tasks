@@ -70,13 +70,7 @@ let newArr = arr.slice(arr);
 console.log(arr);
 console.log(newArr);*/
 
-/*const foo = () => {
-    var i = 0;
-    const foo2 = (i) => {
-        return (i);
-    }
-    console.log(i);
-}*/
+
 
 
 /*console.log(foo());*/
@@ -84,7 +78,13 @@ console.log(newArr);*/
 /*const arr = [10, 12, 15, 21];
 for (var i = 0; i < arr.length; i++) {
     setTimeout((function(i) {
-        return function () {console.log('Index: ' + i + ', element: ' + arr[i]);}
+        return function () {console.log('Index: ' + i + ', element: '/*const foo = () => {
+    var i = 0;
+    const foo2 = (i) => {
+        return (i);
+    }
+    console.log(i);
+}*/ + arr[i]);}
 
     })(i), 3000);
 }*/
@@ -114,13 +114,13 @@ for (var i = 0; i < arr.length; i++) {
         })(i), 3000);
 
 
-}
-
-function f(a,b,c) {
-    let res =  a + b *c;
-    return res;
-
 }*/
+
+// function f(a,b,c) {
+//     return  a + b *c;
+//
+//
+// }
 
 // f(1,2,4);
 

@@ -6,14 +6,14 @@
     console.log("kick");
 }*/
 
-function makeCounter() {
+/*function makeCounter() {
     var currentCount = 1;
     return function () {
 return currentCount++
     }
 }
 
-var counter = makeCounter();
+var counter = makeCounter();*/
 // console.log(counter());
 // console.log(counter());
 // console.log(counter());
@@ -28,8 +28,9 @@ for (var i = 0; i < 10; i++) {
     }) (i), i * 1000);
 }*/
 
+/*
 async function unicorn() {
     try {
         let rainbow = await.getRainbow();
     }
-}
+}*/

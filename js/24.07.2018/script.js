@@ -12,7 +12,7 @@ console.log(Dog.sayHello());
 var dog = new Dog('Bruno');
 console.log(dog);
 
-Dog.sayHello.call(dog);*/
+console.log(Dog.sayHello.call(dog));*/
 
 
 
