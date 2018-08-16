@@ -1,0 +1,41 @@
+.home-container {
+  margin: 25px 25px 0;
+  background-color: rgba(255, 255, 255, 0.65);
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.home-container__info {
+  padding: 0 60px 17px;
+}
+
+.info-list {
+  padding: 17px 0 0 20px;
+}
+
+.info-list li {
+  padding-bottom: 17px;
+}
+
+.mainList li:first-child {
+  padding-bottom: 0;
+}
+
+.subList li:first-child {
+  padding-bottom: 17px;
+}
+
+.lastWord {
+  text-align: center;
+  padding: 20px 0 37px;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.rout-span {
+  display: inline-block;
+  background: rgb(132, 120, 231);
+  padding: 5px;
+  color: #fdfdfd;
+  border-radius: 5px;
+}

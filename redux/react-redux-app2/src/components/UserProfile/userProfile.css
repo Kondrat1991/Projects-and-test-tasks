@@ -1,0 +1,31 @@
+.profile-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 25px;
+  background-color: #fff;
+}
+
+.userInfo {
+  margin-bottom: 25px;
+}
+
+.profile-container ul {
+  padding-left: 20px;
+}
+
+.profile-heading {
+  margin-bottom: 5px;
+}
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.link {
+  width: 100px;
+  margin-right: 20px;
+}
