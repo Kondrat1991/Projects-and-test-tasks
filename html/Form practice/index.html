@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+<section class="form">
+    <div class="wrapper">
+        <h2 class="form__title">Complete Your Order</h2>
+
+        <div class="btn_wrapper">
+            <a class=" btn paypal_btn"
+               href="https://getflexsafe.myshopify.com/912195699/checkouts/2510b15e9f72cb8ee419d87e2ab94238/express/redirect">
+                Paypal</a>
+
+            <a class=" btn amazon_btn"
+               href="https://getflexsafe.myshopify.com/912195699/checkouts/2510b15e9f72cb8ee419d87e2ab94238/express/redirect">
+                Amazon</a>
+
+        </div>
+        <div class="divider">
+            <p class="divider__text">Or Pay With Credit Card</p>
+        </div>
+        <section class="shipping">
+            <h2 class="title_ship">Shipping Information</h2>
+
+
+            <form class="login-form" action="#" method="POST">
+
+                <div class="form-div">
+                    <div class="thin-section">
+                        <input type="email" class="input e-mail" placeholder="Email" name="e-mail" required autofocus/>
+
+                        <div class="name_wrapper">
+                            <input type="Text" class="input name" placeholder="First Name" name="name" required/>
+                            <input type="Text" class="input lastName" placeholder="Last Name" name="lastName" required/>
+                        </div>
+                        <div class="address_wrapper">
+
+                            <input type="Text" class="input address" placeholder="Address" name="address" required/>
+                            <input type="Text" class="input suite" placeholder="Apt/Suite(optional)" name="suite"/>
+
+                        </div>
+                        <input type="Text" class="input city" placeholder="City" name="city" required/>
+
+
+                        <div class="state__container">
+                            <input type="Text" class="input state" placeholder="Prefecture" name="state" required/>
+
+                            <input type="Text" class="input postcode" placeholder="Postal Code" name="postcode"
+                                   required/>
+
+                        </div>
+                        <div class="country__wrapper">
+
+                            <select name="country" class="country_container" id="country" autocomplete="country"
+                                    required="">
+                                <option label="Australia"></option>
+                                <option label="Austria"></option>
+                                <option label="Belgium"></option>
+                                <option label="Brazil"></option>
+                                <option label="Canada"></option>
+                                <option label="Denmark"></option>
+                                <option label="Finland"></option>
+                                <option label="France"></option>
+                                <option label="Germany"></option>
+                                <option label="Greece"></option>
+                                <option label="Hong Kong SAR China"></option>
+                                <option label="Ireland"></option>
+                                <option label="Israel"></option>
+                                <option label="Italy"></option>
+                                <option label="Japan"></option>
+                                <option label="Netherlands"></option>
+                                <option label="New Zeeland"></option>
+                                <option label="Norway"></option>
+                                <option label="Poland"></option>
+                                <option label="Portugal"></option>
+                                <option label="Singapore"></option>
+                                <option label="Spain"></option>
+                                <option label="Sweden"></option>
+                                <option label="Switzerland"></option>
+                                <option label="United Kingdom"></option>
+                                <option label="United States"></option>
+                            </select>
+                            <label for="country">
+                            </label>
+                        </div>
+                        <input type="Text" class="input phone" placeholder="Phone(optional)" name="phone" required/>
+
+
+                    </div>
+                </div>
+
+                <a class="submit" data-next="Next" data-default="Complete Order">Next</a>
+            </form>
+
+
+        </section>
+    </div>
+</section>
+</body>
+</html>

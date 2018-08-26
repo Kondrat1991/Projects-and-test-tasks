@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.form {
+    margin: auto;
+    padding: 0 20px;
+    width: calc(100% - 40px);
+
+}
+
+.form__title {
+    margin: 10px 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.btn_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn_wrapper {
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: -0.5px;
+    text-decoration: none;
+    padding: 12px 40px 15px;
+    background-color: #f9c520;
+    border: none;
+    border-radius: 5px;
+    transition: .3s;
+    text-align: center;
+    cursor: pointer;
+}
+
+.paypal_btn {
+    margin-bottom: 5px;
+}
+
+.divider {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: 15px 0 20px !important;
+}
+
+.divider__text {
+    display: inline-block;
+    color: #535353;
+    font-size: 16px;
+    padding: 5px 10px !important;
+    background: white;
+    position: relative;
+    z-index: 2;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.divider:before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 14px;
+    left: 0;
+    z-index: 1;
+    background: #535353;
+    opacity: .3;
+}
+
+.title_ship {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 60px;
+    position: relative;
+
+}
+
+.title_ship:before {
+    content: '';
+    font-family: sans-serif;
+    width: 45px;
+    height: 22px;
+    /*background: url(/wp-content/uploads/checkout-shipping.svg);*/
+    background-size: 45px 22px;
+    position: absolute;
+    top: 3px;
+    left: 0;
+}
+
+.thin-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    float: left;
+    font-size: 16px;
+    margin: 0;
+    padding: 13px;
+    outline: 0;
+    border: 1px solid #cececf;
+    border-top-color: #b5b5b6;
+    border-bottom-color: #dededf;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.e-mail {
+    /*width: calc(100% - 30px);*/
+    margin-bottom: 5px;
+
+}
+
+.name_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+
+}
+
+.name {
+    width: 49%;
+}
+
+.lastName {
+    width: 49%;
+}
+
+.address_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.address {
+    width: 49%;
+}
+
+.suite {
+    width: 49%;
+}
+
+
+.country__wrapper {
+    width: 100%;
+    position: relative;
+    margin: 0 0 5px;
+}
+
+
+.country_container {
+    border-color: #7dc001;
+    box-shadow: inset 0 0 1px 1px #7dc001;
+    width: 100% !important;
+    height: 50px;
+    color: #4a4a4a;
+    font-size: 14px;
+    padding: 12px 10px 0 !important;
+    outline: none;
+    max-width: 100%;
+}
+
+
+.state__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px auto;
+}
+
+.state {
+    width: 49%;
+}
+
+.postcode {
+    width: 49%;
+}
+
+.submit {
+    display: block;
+    width: 230px;
+    padding: 20px 40px !important;
+    margin: 20px auto 10px ;
+    background: #24ae4e;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: .3s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
