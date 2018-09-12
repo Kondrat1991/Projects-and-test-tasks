@@ -1,0 +1,311 @@
+<div class="page-width feature-row">
+  {% capture image_layout %}
+    <div class="feature-row__item top_set">
+      {% if section.settings.image != blank %}
+        {% capture img_id %}FeatureRowImage-{{ section.id }}{% endcapture %}
+        {% capture wrapper_id %}FeatureRowImageWrapper-{{ section.id }}{% endcapture %}
+        {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+        {% include 'image-style' with image: section.settings.image, width: 545, height: 545, small_style: true, wrapper_id: wrapper_id, img_id: img_id %}
+        <div id="{{ wrapper_id }}" class="feature-row__image-wrapper js">
+         <div class="w3-content" style="max-width:1200px">
+           <div id="guGallery-1">
+             <div id="guGallery-1-imageWrapper" class="imageWrapper">
+  <iframe class="mySlides" width="450" height="300" src="https://www.youtube.com/embed/SGl09r9gFqM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <img class="mySlides" src="https://i.pinimg.com/originals/10/d6/e2/10d6e27a24475aa49977fcdf08dd4b91.jpg" style="width:100%">
+  <img class="mySlides" src="https://s8.hostingkartinok.com/uploads/images/2018/08/b39e831302f5ec4e27f1b6064392d6f1.jpg" style="width:100%">
+  <img class="mySlides" src="https://s8.hostingkartinok.com/uploads/images/2018/08/2d39d5b448b7f411fc02652ea29909aa.jpg" style="width:100%">
+  <img class="mySlides" src="https://s8.hostingkartinok.com/uploads/images/2018/08/6da09864c6dee9359a7fb8eaca871a4a.jpg" style="width:100%">
+  <img class="mySlides" src="https://s8.hostingkartinok.com/uploads/images/2018/08/37e40e3289e2699e3dc4a47707a11d31.jpg" style="width:100%">
+  <img class="mySlides" src="https://s8.hostingkartinok.com/uploads/images/2018/08/5d6205fbe60857017df7a3257044df91.jpg" style="width:100%">
+  <img class="mySlides" src="https://s8.hostingkartinok.com/uploads/images/2018/08/43d7c2405ff91c57957157aaebfd4437.jpg" style="width:100%">
+  <img class="mySlides" src="https://s8.hostingkartinok.com/uploads/images/2018/08/096c57865bb73196194d9f317ee69833.jpg" style="width:100%">
+  <img class="mySlides" src="https://s8.hostingkartinok.com/uploads/images/2018/08/14d4d3f0e7bea0cd81ee99e1cbdf6574.jpg" style="width:100%">
+  
+           </div>
+           </div>
+           <div>
+  <div class="w3-row-padding w3-section">
+     <div class="w3-col s2">
+     <img class="demo w3-opacity w3-hover-opacity-off playButton"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/YouTube_play_buttom_icon_%282013-2017%29.svg/1280px-YouTube_play_buttom_icon_%282013-2017%29.svg.png" alt="https://www.youtube.com/embed/SGl09r9gFqM">
+    <img  src="https://s8.hostingkartinok.com/uploads/images/2018/08/2d39d5b448b7f411fc02652ea29909aa.jpg" class="demo w3-opacity w3-hover-opacity-off attachment-thumbnail selectedThumb" onclick="currentDiv(1)" alt="https://www.youtube.com/embed/SGl09r9gFqM" id="guGallery-1-thumbnail-1">
+    </div>
+    <div class="w3-col s2">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="https://i.pinimg.com/originals/10/d6/e2/10d6e27a24475aa49977fcdf08dd4b91.jpg" style="width="60" height="50"" onclick="currentDiv(2)">
+    </div>
+    <div class="w3-col s2">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="https://s8.hostingkartinok.com/uploads/images/2018/08/b39e831302f5ec4e27f1b6064392d6f1.jpg" style="width="60" height="50"" onclick="currentDiv(3)">
+    </div>
+    <div class="w3-col s2">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="https://s8.hostingkartinok.com/uploads/images/2018/08/2d39d5b448b7f411fc02652ea29909aa.jpg" style="width="80" height="50"" onclick="currentDiv(4)">
+    </div>
+    <div class="w3-col s2">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="https://s8.hostingkartinok.com/uploads/images/2018/08/6da09864c6dee9359a7fb8eaca871a4a.jpg" style="width="60" height="50"" onclick="currentDiv(5)">
+    </div>
+    <div class="w3-col s2">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="https://s8.hostingkartinok.com/uploads/images/2018/08/37e40e3289e2699e3dc4a47707a11d31.jpg" style="width="60" height="50"" onclick="currentDiv(6)">
+    </div>
+  </div>
+  <div class="w3-row-padding w3-section" style="text-align:center;     display: flex;
+    justify-content: center;">
+  <div class="w3-col s2 w3-centered">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="https://s8.hostingkartinok.com/uploads/images/2018/08/5d6205fbe60857017df7a3257044df91.jpg" style="width="60" height="50"" onclick="currentDiv(7)">
+    </div>
+    <div class="w3-col s2 w3-centered">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="https://s8.hostingkartinok.com/uploads/images/2018/08/43d7c2405ff91c57957157aaebfd4437.jpg" style="width="60" height="50"" onclick="currentDiv(8)">
+    </div>
+    <div class="w3-col s2 w3-centered">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="https://s8.hostingkartinok.com/uploads/images/2018/08/096c57865bb73196194d9f317ee69833.jpg" style="width="60" height="50"" onclick="currentDiv(9)">
+    </div>
+    <div class="w3-col s2 w3-centered">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="https://s8.hostingkartinok.com/uploads/images/2018/08/14d4d3f0e7bea0cd81ee99e1cbdf6574.jpg" style="width="60" height="50"" onclick="currentDiv(10)">
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      <script>
+      var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+      </script>
+        <noscript>
+          {{ section.settings.image | img_url: '600x600', scale: 2 | img_tag: section.settings.image.alt, 'feature-row__image' }}
+        </noscript>
+      {% else %}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {% endif %}
+    </div>
+  {% endcapture %}
+
+  <div class="feature-row">
+    {% if section.settings.layout == 'left' %}
+      {{ image_layout }}
+    {% endif %}
+<div class="click_button_two" data-theme-editor-setting="section.feature-row.button_label/escape" aria-describedby="a11y-external-message">
+          Get Clean Sip Now!
+        </div>
+    <div class="feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }}">
+      {% if section.settings.title != blank %}
+        <h2 class="h3">{{ section.settings.title | escape }}</h2>
+      {% endif %}
+      {% if section.settings.text != blank %}
+        <div class="rte rte-setting featured-row__subtext">{{ section.settings.text }}</div>
+      {% endif %}
+      {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+        <div class="click_button">
+          {{ section.settings.button_label | escape }}
+        </div>
+      {% endif %}
+    </div>
+
+    <script>
+    $('.click_button').click(function(){
+      var element       = $(".grid--view-items");
+var elementHeight = element.height();
+var windowHeight  = $(window).height();
+
+var offset = element.offset().top;
+$('html, body').animate({ scrollTop: offset }, 500);
+    })
+  </script>
+    <script>
+    $('.click_button_two').click(function(){
+      var element       = $(".grid--view-items");
+var elementHeight = element.height();
+var windowHeight  = $(window).height();
+
+var offset = element.offset().top;
+$('html, body').animate({ scrollTop: offset }, 500);
+    })
+  </script>
+    
+    {% if section.settings.layout == 'right' %}
+      {{ image_layout }}
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": {
+      "en": "Image with text",
+      "de": "Foto mit Text",
+      "fr": "Image avec du texte",
+      "it": "Immagine con testo",
+      "ja": "????????",
+      "es": "Imagen con texto",
+      "pt-BR": "Imagem com texto"
+    },
+    "class": "index-section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": {
+          "en": "Image",
+          "de": "Foto",
+          "fr": "Image",
+          "it": "Immagine",
+          "ja": "??",
+          "es": "Imagen",
+          "pt-BR": "Imagem"
+        }
+      },
+      {
+        "type": "select",
+        "id": "layout",
+        "label": {
+          "en": "Image alignment",
+          "de": "Fotoausrichtung",
+          "fr": "Alignement de l'image",
+          "it": "Allineamento immagine",
+          "ja": "?????????",
+          "es": "Alineacion de imagen",
+          "pt-BR": "Alinhamento da imagem"
+        },
+        "default": "left",
+        "options": [
+          {
+            "value": "left",
+            "label": {
+              "en": "Left",
+              "de": "Links",
+              "fr": "Gauche",
+              "it": "Sinistra",
+              "ja": "?",
+              "es": "Izquierda",
+              "pt-BR": "Esquerda"
+            }
+          },
+          {
+            "value": "right",
+            "label": {
+              "en": "Right",
+              "de": "Rechts",
+              "fr": "Droite",
+              "it": "Destra",
+              "ja": "?",
+              "es": "Derecha",
+              "pt-BR": "Direita"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": {
+          "en": "Heading",
+          "de": "Titel",
+          "fr": "En-tete",
+          "it": "Heading",
+          "ja": "???",
+          "es": "Titulo",
+          "pt-BR": "Titulo"
+        },
+        "default": {
+          "en": "Image with text",
+          "de": "Foto mit Text",
+          "fr": "Image avec du texte",
+          "it": "Immagine con testo",
+          "ja": "????????",
+          "es": "Imagen con texto",
+          "pt-BR": "Imagem com texto"
+        }
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": {
+          "en": "Text",
+          "de": "Text",
+          "fr": "Texte",
+          "it": "Testo",
+          "ja": "????",
+          "es": "Texto",
+          "pt-BR": "Texto"
+        },
+        "default": {
+          "en": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+          "de": "<p>Kombinieren Sie gro?e Schrift mit einem Foto, um einen Fokus auf Ihr ausgewahltes Produkt, die Kategorie oder einen Blogpost zu legen. Dazu Details zur Verfugbarkeit, Stil oder ein Review.</p>",
+          "fr": "<p>Ajoutez une image a un long texte pour mettre l'accent sur un produit de votre choix, une collection, ou un article de blog. Ajoutez des details sur la disponibilite, le style, ou mettez un commentaire client en avant.</p>",
+          "it": "<p>Associa un testo di grandi dimensioni a un'immagine per dare importanza al prodotto, alla collezione o all'articolo del blog di tua scelta. Aggiungi dettagli sulla disponibilita, sullo stile o fornisci una recensione.</p>",
+          "ja": "<p>??????????????????????????????????????????????????????????????????????????????????????</p>",
+          "es": "<p>Vincula un texto largo con una imagen para dar visibilidad a tu producto, coleccion o publicacion de blog elegida. Agrega detalles sobre disponibilidad, estilo, o incluso ofrece una resena.</p>",
+          "pt-BR": "<p>Emparelhe textos grandes com uma imagem para dar foco ao produto, colecao ou postagem do blog escolhido. Adicione detalhes sobre disponibilidade, estilo ou ate mesmo um comentario.</p>"
+        }
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": {
+          "en": "Button label",
+          "de": "Button-Etikett",
+          "fr": "Texte du bouton",
+          "it": "Etichetta pulsante",
+          "ja": "??????",
+          "es": "Etiqueta de boton",
+          "pt-BR": "Etiqueta do botao"
+        }
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": {
+          "en": "Button link",
+          "de": "Button-Link",
+          "fr": "Lien du bouton",
+          "it": "Link pulsante",
+          "ja": "??????",
+          "es": "Enlace de boton",
+          "pt-BR": "Link do botao"
+        }
+      }
+    ],
+    "presets": [
+      {
+        "name": {
+          "en": "Image with text",
+          "de": "Foto mit Text",
+          "fr": "Image avec texte",
+          "it": "Immagine con testo",
+          "ja": "????????",
+          "es": "Imagen con texto",
+          "pt-BR": "Imagem com texto"
+        },
+        "category": {
+          "en": "Image",
+          "de": "Foto",
+          "fr": "Image",
+          "it": "Immagine",
+          "ja": "??",
+          "es": "Imagen",
+          "pt-BR": "Imagem"
+        }
+      }
+    ]
+  }
+{% endschema %}
