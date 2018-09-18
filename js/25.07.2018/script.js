@@ -19,14 +19,13 @@ var counter = makeCounter();*/
 // console.log(counter());
 // console.log(counter());
 
-/*
 for (var i = 0; i < 10; i++) {
     setTimeout((function (i) {
         return function () {
             console.log(i);
         }
     }) (i), i * 1000);
-}*/
+}
 
 /*
 async function unicorn() {

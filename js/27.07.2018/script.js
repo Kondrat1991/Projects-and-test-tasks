@@ -84,10 +84,7 @@ for (var i = 0; i < arr.length; i++) {
         return (i);
     }
     console.log(i);
-}*/ + arr[i]);}
 
-    })(i), 3000);
-}*/
 
 /*(function() {
     f();
