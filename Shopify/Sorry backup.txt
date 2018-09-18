@@ -1,0 +1,32 @@
+<script type="text/JavaScript">
+//<![CDATA[
+$('.checkout__first').hide();
+
+// <![CDATA[
+setTimeout("location.href = 'https://cleansip.net/';", 4000);
+// ]]></script>
+
+
+localStorage.clear();
+
+
+
+<script type="text/JavaScript">
+
+ 
+
+// <![CDATA[
+localStorage.clear();
+// ]]>
+
+ 
+
+// <![CDATA[
+$('.checkout__first').hide();
+// ]]>
+
+// <![CDATA[
+setTimeout("location.href = 'https://cleansip.net/';", 4000);
+// ]]>
+
+</script>
