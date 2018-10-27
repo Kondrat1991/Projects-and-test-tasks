@@ -120,6 +120,7 @@ for (var i = 0; i < 10; i++) {
     }) (i));
 }*/
 
+
 /*const foo = () => {
     var i = 0;
     const foo2 = (i) => {
@@ -146,7 +147,7 @@ console.log(flatten(array));*/
 //class prototyping
 
 
-/*class Cat {
+class Cat {
     constructor(catName) {
         this.name = catName;
     }
@@ -166,11 +167,11 @@ class Bobcat extends Cat{
 }
 let david = new Bobcat('Mursik', 10, 'white');
 
-console.log(david.getName());*/
+console.log(david.getName());
 
-/*console.log(('123' > '7'));
+console.log(('123' > '7'));
 
-console.log((null == 0));*/
+console.log((null == 0));
 
 
 
