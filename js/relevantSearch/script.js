@@ -1,5 +1,5 @@
-/*
-//function that make a proper view of search request;
+
+// Масив, який получимо з бази
 let testArr = [
     {
         title: "Best protein Nutrition"
@@ -21,101 +21,61 @@ let testArr = [
         title: "Best протеин"
     },
     {
-        title: "  протеин новый  Best"
-    },
-    {
-        title: "протеин новый лучший"
+        title: "  протеин новый  лучший"
     }
-
 ];
+
 //this is the word from input
 let searchWord = "protein Best Nutrition";
-let searchWord2 = "протеин новый лучший";
+let searchWord2 = "лучший Протеин новый";
+let searchWord3 = "протеин";
 
-function properSearchString(string) {
-    const firstStep = string.split(/\s+/);
-    const secondStep = firstStep.map(elem => `\\b${elem}`);
-    return secondStep.join("|");
+
+
+// функція для знаходження спільних слів в 2-х масивах
+function intersect_arrays(a, b) {
+    var sorted_a = a.concat().sort();
+    var sorted_b = b.concat().sort();
+    var common = [];
+    var a_i = 0;
+    var b_i = 0;
+
+    while (a_i < a.length && b_i < b.length)
+    {
+        if (sorted_a[a_i] === sorted_b[b_i]) {
+            common.push(sorted_a[a_i]);
+            a_i++;
+            b_i++;
+        }
+        else if(sorted_a[a_i] < sorted_b[b_i]) {
+            a_i++;
+        }
+        else {
+            b_i++;
+        }
+    }
+    return common.length;
 }
-searchQuery = new RegExp(properSearchString(searchWord), "gi");
 
-function generalSearchForGoodsMod(searchQuery, arr) {
-    console.log("reg expression", searchQuery);
+
+function generalSearchForGoodsMod(searchWord, arr) {
+
+    let searchWordArr = searchWord.toLowerCase().split(" ");
     let sortedByLength = arr.map(good => {
-        let itemLength = XRegExp.match(good.title, searchQuery, "all");
-        good.itemMatchLength = itemLength.length;
+        let itemLength = intersect_arrays(good.title.toLowerCase().split(' '), searchWordArr);
+
+
+        good.itemMatchLength = itemLength;
         return good;
     });
 
     const sortedArr = sortedByLength.sort(
         (a, b) => b.itemMatchLength - a.itemMatchLength
     );
-    // array sorted by relevance condition
+// array sorted by relevance condition
     return (sortedArr);
 }
-let relevant = generalSearchForGoodsMod(searchQuery, testArr);
-console.log("relevantArr", relevant);
+
+console.log(generalSearchForGoodsMod(searchWord3, testArr));
 
 
-
-
-
-
-*/
-
-
-    let testArr = [
-    {
-        title: "Best protein Nutrition"
-    },
-    {
-        title: "Best protein"
-    },
-    {
-        title: "протеин Nutrition"
-    },
-    {
-        title: "протеин Best Nutrition"
-    },
-    {
-        title: "protein Best Nutrition"
-    },
-
-    {
-        title: "Best протеин"
-    },
-    {
-        title: "  протеин новый  Best"
-    }
-    ];
-    //this is the word from input
-    let searchWord = "protein Best Nutrition";
-    let searchWord2 = "протеин новый лучший";
-
-    function properSearchString(string) {
-        const firstStep = string.split(/\s+/);
-        const secondStep = firstStep.map(elem => `\\b${elem}`);
-        return secondStep.join("|");
-    }
-
-    searchQuery = new RegExp(properSearchString(searchWord), "gi");
-
-    function generalSearchForGoodsMod(searchQuery, arr) {
-        console.log("reg expression", searchQuery);
-        let sortedByLength = arr.map(good => {
-            let itemLength = good.title.match(searchQuery);
-            //another approach with XegExp look like this but don't work either
-            //let itemLength = XRegExp.match(good.title, searchQuery, "all");
-            good.itemMatchLength = itemLength.length;
-            return good;
-    });
-
-    const sortedArr = sortedByLength.sort(
-        (a, b) => b.itemMatchLength - a.itemMatchLength
-    );
-    // array sorted by relevance condition
-    return (sortedArr);
-    }
-
-    let relevant = generalSearchForGoodsMod(searchQuery, testArr);
-    console.log("relevantArr", relevant);
