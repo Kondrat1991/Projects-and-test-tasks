@@ -1,4 +1,3 @@
-/*
 (function() {
     f();
 
@@ -11,13 +10,4 @@ function f() {
     console.log(2)
 }
 
-f();*/
-
-
-
-function lookThis() {
-    return this;
-}
-
-
-console.log(lookThis());
+f();

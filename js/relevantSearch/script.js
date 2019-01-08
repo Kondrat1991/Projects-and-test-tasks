@@ -79,3 +79,13 @@ function generalSearchForGoodsMod(searchWord, arr) {
 console.log(generalSearchForGoodsMod(searchWord3, testArr));
 
 
+/*var b = function () {
+    alert("function b");
+};
+
+function a() {
+    alert(("function a"));
+}
+
+b();
+a();*/
