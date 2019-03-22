@@ -139,3 +139,13 @@ console.log(generalSearchForGoodsMod(searchWord2, testArr));
 }*/
 
 
+/*var b = function () {
+    alert("function b");
+};
+
+function a() {
+    alert(("function a"));
+}
+
+b();
+a();*/
