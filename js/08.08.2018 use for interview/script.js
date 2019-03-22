@@ -1,12 +1,12 @@
 
 //immutable array
 
-/*const heroes = [
+const heroes = [
 
-  { name: 'Wolverine', isReady: false, /!* ... others properties ... *!/ },
-{ name: 'Deadpool', isReady: false,  /!* ... others properties ... *!/ },
-{ name: 'Magneto', isReady: false,   /!* ... others properties ... *!/ },
-{ name: 'Gandalf', isReady: true,   /!* ... others properties ... *!/ }
+  { name: 'Wolverine', isReady: false, /* ... others properties ... */ },
+{ name: 'Deadpool', isReady: false,  /* ... others properties ... */ },
+{ name: 'Magneto', isReady: false,   /* ... others properties ... */ },
+{ name: 'Gandalf', isReady: true,   /* ... others properties ... */ }
 
 
 ];
@@ -17,7 +17,7 @@ let newArr = heroes.map(hero => {
     return newHero
 });
 
-console.log(newArr);*/
+console.log(newArr);
 
 
 
