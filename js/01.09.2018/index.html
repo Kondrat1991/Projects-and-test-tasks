@@ -1,24 +1,53 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Eleventh Day</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Colors</title>
+    <style>
+        #submit{
+            margin-left: 300px;
+            margin-top: 10px;
+        }
+        #input{
+            margin-left: 300px;
+        }
+        #output{
+            margin-left: 300px;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-
 <div class="container">
+    <br />
+    <div class="row">
+        <textarea id="input" type="text" rows="4" cols="50"></textarea>
+    </div>
+    <div class="row">
+        <span id="output"></span>
+        <script>
+            var input = document.getElementById("input");
+            var output = document.getElementById("output");
+            var pattern = /[,]|[.]/gim;
+            var res;
+            var str;
+            input.addEventListener('keyup', function(){
+                res = this.value.split(/[\s]+/g);
+                console.log(res);
+                for(var i=0; i<res.length; i++){
+                    if(typeof res[i] === 'object' || typeof res[i] === 'string'){
+                        if(res[i] != null){
+                            console.log(typeof res[i]);
+                            res[i] = "<span style=color:"+res[i].replace(pattern, '')+">"+res[i]+"</span>" + " ";
+                        }
+                    }
+                }
+                output.innerHTML = res;
 
-
-
-
-        <h1>01.09!</h1>
+            }, false);
+        </script>
     </div>
 </div>
-
-<script src="script.js"> </script>
 </body>
 </html>
