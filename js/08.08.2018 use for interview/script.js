@@ -140,13 +140,7 @@ foo()*/
 
 console.log(flatten(array));*/
 
-
-
-
-
 //class prototyping
-
-
 class Cat {
     constructor(catName) {
         this.name = catName;
